@@ -1,4 +1,4 @@
-# GameRecommendationSystem
+# Game Recommendation System
 project for course ECE 6254 19 Spring  
 Team member: Weihua Zhu, Chengxi Yao, Wei Zhao, Xiangwei Sha
 
@@ -16,9 +16,9 @@ In this section you should provide a more detailed description of the necessary 
 In this section I would like you to provide an enumerated list of the tasks you believe will be required to successfully complete the project. Tasks can include learning about pre-requisite background subjects, reading specific papers, implement- ing particular algorithms, acquiring/processing a data set, or anything else that you believe will be necessary for the project. You may also include tasks related to preapring/printing the final project poster and writeup. For each task, include the following information:  
 – Task: A detailed statement of the task to be accomplished. Your statement should ideally be specific enough that you will be able to clearly measure when it has been finished. “Read papers X and Y” is better than “Learn about field Z”.  
 – Leader(s): Which team member(s) will be primarily responsible for accomplishing this task. (It is fine if all team members are planning to contribute to all aspects of the project, but please designate one or at most two people to be the leaders for each task).  
-– Deadline: A tentative deadline for when you would like to have this task accomplished.   
+– Deadline: A tentative deadline for when you would like to have this task accomplished.    
 – Importance:Abriefstatement(canbeonlyasentenceortwo)astotheoverallimportance of this task. Some tasks are critical, meaning that it is hard to see how the project will be complete without it, whereas other tasks are more “optional” items that you would like to get to if you have the time. For each task, state if it is a critical or optional task. If later tasks depend on it as a prerequisite, state this.  
-– Potential challenges: A list of things that you think might “go wrong” and what, if any- thing, you plan to do to avoid/overcome these challenges and/or what you would do if you can’t get past them.  
+– Potential challenges: A list of things that you think might “go wrong” and what, if anything, you plan to do to avoid/overcome these challenges and/or what you would do if you can’t get past them.  
 There is no page limit for this section, but I’m not expecting more than a page or so.  
 
 
