@@ -21,4 +21,17 @@ In this section I would like you to provide an enumerated list of the tasks you 
 – Potential challenges: A list of things that you think might “go wrong” and what, if anything, you plan to do to avoid/overcome these challenges and/or what you would do if you can’t get past them.  
 There is no page limit for this section, but I’m not expecting more than a page or so.  
 
+# Reference links
+Dataset:  
+https://www.kaggle.com/gregorut/videogamesales the base one, 
+https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings   based on vgcharts and metacritic
+https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings  
+https://www.kaggle.com/juttugarakesh/video-game-data
+https://www.kaggle.com/egrinstein/20-years-of-games#ign.csv based on IGN data
 
+Web source:  
+VGcharts, metacritic, IGN
+
+Crawler:  
+Metacritic Scraper: https://github.com/wtamu-cisresearch/scraper
+VGchart Scraper: https://github.com/GregorUT/vgchartzScrape
