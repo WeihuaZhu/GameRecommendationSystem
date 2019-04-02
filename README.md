@@ -1,4 +1,4 @@
-# Game Recommendation System
+# Video Game Recommendation
 project for course ECE 6254 19 Spring  
 Team member: Weihua Zhu, Chengxi Yao, Wei Zhao, Xiangwei Sha
 
