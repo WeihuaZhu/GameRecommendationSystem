@@ -107,6 +107,8 @@ if __name__ == '__main__':
     # read csv
     csvFile = open('ign.csv', 'r')
     reader = csv.reader(csvFile)
+
+    SIZE = 100
     for item in reader:
         # print(item)
         gameurl = item[3]
@@ -115,7 +117,7 @@ if __name__ == '__main__':
         if gameurl not in roots:
             data_url = {'title':item[2], 'url':item[3]}
             roots.append(data_url)
-        if reader.line_num == 5:
+        if len(roots) == SIZE:
             break
 
 
