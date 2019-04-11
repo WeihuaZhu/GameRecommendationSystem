@@ -18,5 +18,6 @@ Web source:
 VGcharts, metacritic, IGN  
 
 Crawler:  
+IGN Crawler: https://github.com/egrinstein/crawl_ign/  
 Metacritic Scraper: https://github.com/wtamu-cisresearch/scraper  
 VGchart Scraper: https://github.com/GregorUT/vgchartzScrape  
