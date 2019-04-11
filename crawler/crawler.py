@@ -12,69 +12,70 @@ import re
 import urllib
 import requests
 import random
+import csv
 from bs4 import BeautifulSoup
  
  
 USER_AGENT = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'}
 
-def parse_google(html, keyword):
+def parse_review(html):
     soup = BeautifulSoup(html, 'html.parser')
  
     found_results = []
     rank = 1
-    result_block = soup.find_all('div', attrs={'class': 'pE8vnd GZjjfc'})
-    # print result_block
-    for result in result_block:
-        jobtitle = result.find('div', attrs={'class': 'fheAoc nsol9b RgAZAc'}).get_text()
-        attr1 = result.find('div', attrs={'class': 'wozmme'}).find_all('div', attrs={'class': 'k8RiQ nsol9b'})
-        attr2 = result.find('div', attrs={'class': 'edeiNb'}).find_all('div', attrs={'class': 'Ug1maf BbiuWb'})
-        source = result.find('span', attrs={'class': 'CjlJVc'}).find('a', attrs={'class': 'nsol9b'}).get_text()
-        joburl = result.find('span', attrs={'class': 'CjlJVc'}).find('a', attrs={'class': 'nsol9b'}).get('href')
-        joburl = urllib.parse.unquote(joburl)
+    review = soup.find('div', attrs={'class': 'article-content'})
+    # print(review.get_text())
+    # verdict = soup.find('div', attrs={'class': 'review-bottom'}).get_text()
+    paras = ["".join(x.findAll(text=True)) for x in review.findAllNext("p")]
+    result = "\n\n".join(paras)
+    # print(result)
 
-        
-        if len(attr1) == 2 and len(attr2) == 2:
-            opconame = attr1[0].get_text()
-            location = attr1[1].get_text()
-            date = attr2[0].get_text()
-            jobtype = attr2[1].get_text()
-            description = result.find('span', attrs={'class': 'Cyt8W'})
-            description = urllib.parse.unquote(description.get_text())
+    return result
 
-            print(date, jobtype, jobtitle)
-            print(opconame, location)
-            print(source)
-            print(joburl)
-            print(description)
-            print('-----------')
-
-            if description:
-                data = {'keyword': keyword, 'opconame': opconame, 'location': location, 'source': source, 'joburl': joburl, 'date': date,'jobtitle': jobtitle, 'jobtype': jobtype, 'description': description}
-                # data = json.dumps(data, sort_keys=True, indent=4, separators=(',', ':'))
-                found_results.append(data)
-
-    return found_results
+def parse_url(html):
+    soup = BeautifulSoup(html, 'html.parser')
  
-def scrape_google(keyword):
+    rank = 1
+    div = soup.find('a', attrs={'class': 'jsx-2881975397'}).get('href')
+    # url = div.find('a', attrs={'class': 'jsx-2881975397 review'}).get('href')
+    # print(url)
+
+    return div
+ 
+def scrape_root(csvurl, index, title):
     try:
-        assert isinstance(keyword, str), 'Search term must be a string'
-        escaped_search_term = keyword.replace(' ', '+')
+        assert isinstance(csvurl, str), 'Search term must be a url'
+        escaped_search_term = csvurl.replace(' ', '+')
  
-        google_url = 'https://www.google.com/search?q={}&ibp=htl;jobs#fpstate=tldetail&htidocid=DGll76udo4NGbIkhAAAAAA%3D%3D&htivrt=jobs'.format(keyword)
-        response = requests.get(google_url, headers=USER_AGENT)
+        # parse review url
+        ign_url = 'https://www.ign.com'+ csvurl
+        # print(ign_url)
+        response = requests.get(ign_url, headers=USER_AGENT)
         response.raise_for_status()
         html = response.text
-
         str(html).encode('utf-8')
 
-        found_results = parse_google(html, keyword)
+        review_url = parse_url(html)
+        # print(review_url)
 
-        # f = open(keyword + '_source.txt', 'w')
-        # soup = BeautifulSoup(html, 'html.parser')
+        # parse review content
+        ign_url2 = 'https://www.ign.com'+ review_url
+        # print(ign_url2)
+        response2 = requests.get(ign_url2, headers=USER_AGENT)
+        response2.raise_for_status()
+        html2 = response2.text
+        str(html2).encode('utf-8')
+
+        review_text = parse_review(html2)
+        # print(review_text)
+        # f = open('source.txt', 'w')
+        # soup = BeautifulSoup(html2, 'html.parser')
         # print(soup.prettify(), file = f)
         # f.close()
-
-        return found_results
+        data = {'game': title, 'index': index, 'gameurl': ign_url, 'review_url': review_url, 'review': review_text}
+        # data = json.dumps(data, sort_keys=True, indent=4, separators=(',', ':'))
+        print(data)
+        return data
 
     except AssertionError:
         raise Exception("Incorrect arguments parsed to function")
@@ -87,32 +88,37 @@ def scrape_google(keyword):
 
 
 if __name__ == '__main__':
-    data = []
     roots = []
-    try:
-        results = scrape_linkedin(roots[0])
-        data.append(results)
-    except Exception as e:
-        print(e)
-    finally:
-        sleep(random.uniform(0.5, 2.5))
 
-    f = open('testresult.txt', 'w')
-    print(data, file = f)
-    f.close()
+    # read csv
+    csvFile = open('ign.csv', 'r')
+    reader = csv.reader(csvFile)
+    for item in reader:
+        # print(item)
+        gameurl = item[3]
+        if reader.line_num == 1 or item[4] == 'iPad' or item[4] == 'iPhone':
+            continue
+        if gameurl not in roots:
+            data_url = {'title':item[2], 'url':item[3]}
+            roots.append(data_url)
+        if reader.line_num == 5:
+            break
 
 
-    for root in roots:
+    # print(roots)
+
+    data = []
+    for i,root in enumerate(roots):
+        print('Scraping game', root['title'])
         try:
-            results = scrape_linkedin(root)
-            data.append(results)
+            result = scrape_root(root['url'], i, root['title'])
+            data.append(result)
         except Exception as e:
             print(e)
         finally:
             sleep(random.uniform(0.5, 2.5))
 
-        f = open('result_' + str(root) + '_.txt', 'w')
-        print(data, file = f)
-        f.close()
+    f = open('result.txt', 'w')
+    print(data, file = f)
+    f.close()
 
-    # print(html)

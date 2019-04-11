@@ -1,0 +1,1461 @@
+<!DOCTYPE doctype html>
+<html class="locale-us" data-locale="us" lang="en">
+ <head prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+  <meta content="width=device-width" name="viewport"/>
+  <title>
+   NHL 13 Review - IGN
+  </title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="Yes, hockey fans are a sad bunch right now, what with the looming work-stoppage. But NHL 13 should put a smile on your face." name="description"/>
+   <meta content="noodp, noydir" name="robots"/>
+   <meta content="IGN Entertainment, Inc." name="copyright"/>
+   <link href="https://www.ign.com/articles/2012/09/11/nhl-13-review" rel="canonical"/>
+   <link href="https://m.ign.com/articles/2012/09/11/nhl-13-review" media="only screen and (max-width: 640px)" rel="alternate"/>
+   <link href="https://au.ign.com/articles/2012/09/11/nhl-13-review" hreflang="en-au" rel="alternate"/>
+   <link href="https://ca.ign.com/articles/2012/09/11/nhl-13-review" hreflang="en-ca" rel="alternate"/>
+   <link href="https://ie.ign.com/articles/2012/09/11/nhl-13-review" hreflang="en-ie" rel="alternate"/>
+   <link href="https://uk.ign.com/articles/2012/09/11/nhl-13-review" hreflang="en-gb" rel="alternate"/>
+   <link href="https://www.ign.com/articles/2012/09/11/nhl-13-review" hreflang="en" rel="alternate"/>
+   <link href="https://www.ign.com/articles/2012/09/11/nhl-13-review" hreflang="x-default" rel="alternate"/>
+   <meta content="2012-09-11" name="live_date"/>
+   <meta content="always" name="referrer"/>
+   <meta content="4af6229d" name="zdid">
+    <meta content="66c9d15268cf07bd607db32a979e17df" name="cpid"/>
+    <meta content="NHL 13 Review - IGN" property="og:title"/>
+    <meta content="article" property="og:type"/>
+    <meta content="https://oyster.ignimgs.com/wordpress/stg.ign.com/2012/09/NHL13_090612_176-136x77.jpg" property="og:image"/>
+    <meta content="https://www.ign.com/articles/2012/09/11/nhl-13-review" property="og:url"/>
+    <meta content="Yes, hockey fans are a sad bunch right now, what with the looming work-stoppage. But NHL 13 should put a smile on your face." property="og:description"/>
+    <meta content="IGN" property="og:site_name"/>
+    <meta content="115982828429116" property="fb:app_id"/>
+    <meta content="59685491632" property="fb:pages"/>
+    <!--[if lt IE 9]>        <link rel="stylesheet" type="text/css" href="https://oystatic.ignimgs.com/src/core/css/lib/ie.css"/>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Google GPT Library-->
+    <script type="text/javascript">
+     var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+
+        (function() {
+            var gads = document.createElement('script'),
+                node = document.getElementsByTagName('script')[0];
+
+            gads.async = true;
+            gads.type = 'text/javascript';
+            gads.src = 'https://www.googletagservices.com/tag/js/gpt.js';
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+    <!-- Amazon apstag -->
+    <script type="text/javascript">
+     !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore( A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+        // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
+        apstag.init({
+            pubID: '3101',
+            adServer: 'googletag',
+            bidTimeout: 2e3
+        });
+    </script>
+    <!-- Integral Ad Science for video -->
+    <script src="https://static.adsafeprotected.com/vans-adapter-google-ima.js" type="text/javascript">
+    </script>
+    <!-- Publica ad recovery -->
+    <script>
+     (function(){try{var n='\x70\x41'+'\x50\x49',m='\x24\x63'+'\x6d\x64',o='\x72\x65\x61'+'\x64\x79',p='\x24'+'\x65\x76\x72',c=window[n]=function(a,b){c[m].push([a,b])};c[o]=function(f){c[p].push(f)};c[m]=[];c[p]=[]}catch(e){};(function(){var e=e||{};e.scope={};e.ASSUME_ES5=!1;e.ASSUME_NO_NATIVE_MAP=!1;e.ASSUME_NO_NATIVE_SET=!1;e.defineProperty=e.ASSUME_ES5||"function"==typeof Object.defineProperties?Object.defineProperty:function(d,g,k){d!=Array.prototype&&d!=Object.prototype&&(d[g]=k.value)};e.getGlobal=function(d){return"undefined"!=typeof window&&window===d?d:"undefined"!=typeof global&&null!=global?global:d};e.global=e.getGlobal(this);e.SYMBOL_PREFIX="jscomp_symbol_"; e.initSymbol=function(){e.initSymbol=function(){};e.global.Symbol||(e.global.Symbol=e.Symbol)};e.Symbol=function(){var d=0;return function(g){return e.SYMBOL_PREFIX+(g||"")+d++}}();e.initSymbolIterator=function(){e.initSymbol();var d=e.global.Symbol.iterator;d||(d=e.global.Symbol.iterator=e.global.Symbol("iterator"));"function"!=typeof Array.prototype[d]&&e.defineProperty(Array.prototype,d,{configurable:!0,writable:!0,value:function(){return e.arrayIterator(this)}});e.initSymbolIterator=function(){}}; e.arrayIterator=function(d){var g=0;return e.iteratorPrototype(function(){return g<d.length?{done:!1,value:d[g++]}:{done:!0}})};e.iteratorPrototype=function(d){e.initSymbolIterator();d={next:d};d[e.global.Symbol.iterator]=function(){return this};return d};e.makeIterator=function(d){e.initSymbolIterator();var g=d[Symbol.iterator];return g?g.call(d):e.arrayIterator(d)};e.arrayFromIterator=function(d){for(var g,k=[];!(g=d.next()).done;)k.push(g.value);return k}; e.arrayFromIterable=function(d){return d instanceof Array?d:e.arrayFromIterator(e.makeIterator(d))};e.iteratorFromArray=function(d,g){e.initSymbolIterator();d instanceof String&&(d+="");var k=0,l={next:function(){if(k<d.length){var n=k++;return{value:g(n,d[n]),done:!1}}l.next=function(){return{done:!0,value:void 0}};return l.next()}};l[Symbol.iterator]=function(){return l};return l}; e.polyfill=function(d,g){if(g){var k=e.global;d=d.split(".");for(var l=0;l<d.length-1;l++){var n=d[l];n in k||(k[n]={});k=k[n]}d=d[d.length-1];l=k[d];g=g(l);g!=l&&null!=g&&e.defineProperty(k,d,{configurable:!0,writable:!0,value:g})}};e.polyfill("Array.prototype.keys",function(d){return d?d:function(){return e.iteratorFromArray(this,function(d){return d})}},"es6","es3"); (function(){function d(){return~~(100*Math.random())-~~(100*Math.random())}function g(a){var b=btoa(""+(new Date).getTime()).replace(/=/g,"").split("").sort(d).join("");var c=~~(Math.random()*(b.length-4))+2;b=b.substr(0,c)+"\x3d"+b.substr(c+1);return-1===a.indexOf("?")?a+"?"+b:a+"\x26"+b}function k(a,b){0>a&&(a=1);var c=0;return function(f){for(var d=[],h=0;h<arguments.length;++h)d[h-0]=arguments[h];c+=1;c===a&&b&&b.apply(null,e.arrayFromIterable(d))}}function l(a){for(var b="",c=0;c<a;c++)b+="abcdefghijklmnopqrstuvwxyz".charAt(Math.floor(26* Math.random()));return b}function n(a){a.style.cssText="display: inline-block;box-sizing: content-box;height: 1px;max-height: 1px;min-height: 1px;width: 1px;max-width: 1px;min-width: 1px;position: absolute;top: -100px;left: -100px;transform: none".split(";").join(" !important;")}function D(a,b){for(var c=[],f=1;f<arguments.length;++f)c[f-1]=arguments[f];try{a.apply(null,e.arrayFromIterable(c))}catch(q){console.error(q)}}function y(a){return-1<(a||[]).indexOf(document.readyState)}function v(a,b,c){a.addEventListener(b, c,!1);return function(){a.removeEventListener(b,c)}}function z(a){var b=["interactive","complete"];if(y(b))D(a);else{var c=k(1,function(){D(a)});E.push(c);A||(A=v(document,"readystatechange",function(){y(b)&&(E.forEach(function(a){a&&a()}),A())}));O(c)}}function O(a){y(["complete"])?a():(F.push(a),B||(B=v(window,"load",function(){F.forEach(function(a){a&&a()});B()})))}function P(a){var b=a.document.createElement("iframe");n(b);a.document.body.appendChild(b);return b}function w(a,b){return null!== a.document.body.getAttribute("abp")||null===b.offsetParent||0===b.offsetHeight||0===b.offsetLeft||0===b.offsetTop||0===b.offsetWidth||0===b.clientHeight||0===b.clientWidth||void 0!==a.getComputedStyle&&(a=a.getComputedStyle(b))&&("none"===a.getPropertyValue("display")||"hidden"===a.getPropertyValue("visibility"))?!0:!1}function Q(a,b){var c=a.document.body.getBoundingClientRect();if(0===c.height||0===c.width)return b(null,!1);var f=a.document.createElement("div");f.setAttribute("class","pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links"); a.document.body.appendChild(f);n(f);var d=0,h=setInterval(function(){try{w(a,f)?(clearInterval(h),f.parentElement&&f.parentElement.removeChild(f),b(null,!0)):(d+=1,5<=d&&(clearInterval(h),f.parentElement&&f.parentElement.removeChild(f),b(null,!1)))}catch(R){clearInterval(h),f.parentElement&&f.parentElement.removeChild(f),b(R,!1)}},50)}function S(a,b){var c=a.document.createElement("iframe");c.setAttribute("id","google_ads_iframe_/12345678/mobile_top_300x250_0");a.document.body.appendChild(c);var f= 0,d=setInterval(function(){try{"none"===a.getComputedStyle(c).display?(clearInterval(d),c.parentElement&&c.parentElement.removeChild(c),b(null,!0)):(f+=1,5<=f&&(clearInterval(d),c.parentElement&&c.parentElement.removeChild(c),b(null,!1)))}catch(h){clearInterval(d),c.parentElement&&c.parentElement.removeChild(c),b(h,!1)}},50)}function G(a,b,c,d,q,h){c=void 0===c?0:c;var f=a.document.createElement("script");f.onload=function(){d?navigator.userAgent.match(/Android/i)||navigator.userAgent.match(/webOS/i)|| navigator.userAgent.match(/iP(od|ad|hone)/i)?h(!1):null===navigator.userAgent.match(/Chrom(e|ium)/i)?h(!1):setTimeout(function(){h(!q())},5):h(!1)};f.onerror=function(){2<=c?h(!0):G(a,b,c+1,d,q,h)};f.src=g(b);a.document.body.appendChild(f)}function T(a,b,c){var d={"https://static.doubleclick.net/instream/ad_status.js":function(){return 1===a.google_ad_status},"https://imasdk.googleapis.com/js/sdkloader/ima3.js":function(){return 0<=Object.keys(a).indexOf("ima")}},q=0,h=k(1,c);Object.keys(d).forEach(function(c){try{G(a, c,0,b,d[c],function(a){q+=1;a&&h(null,!0);q===Object.keys(d).length&&h(null,!1)})}catch(fa){q+=1,q===Object.keys(d).length&&h(null,!1)}})}function U(a,b,c){var d=k(1,c);z(function(){function c(a,b){b&&d(null,b);g+=1;3===g&&d(a,b)}var f=P(a),g=0;T(f.contentWindow,b,function(a,b){f.parentElement&&f.parentElement.removeChild(f);c(a,b)});Q(a,c);S(f.contentWindow,c)})}function x(a){a=(a.tagName||"div").toLowerCase();"iframe-network"===a&&(a="iframe");return document.createElement(a)}function u(a,b){for(var c= 0;c<a.length&&!b(a[c],c,a);c+=1);}function V(a,b){var c=document.querySelector(a);if(c){var d=document.createElement(c.tagName);for(a=0;a<c.attributes.length;a++)if(c.attributes[a]&&c.attributes[a].value){var q=document.createAttribute(c.attributes[a].name);q.value=c.attributes[a].value;d.attributes.setNamedItem(q)}"href"in c?(d.rel="stylesheet",d.href=b):"src"in c&&(d.src=b);var h=window.getComputedStyle(c).display||"block";d.style.display="none";d.onload=k(1,function(){r(c);d.style.display=h;u(p.mappings, function(a){if(a.url===b){var c=W.exec(a.selector);c&&2<c.length&&""!==c[1]&&""!==c[2]&&(a.selector=c[1]+"["+c[2]+"\x3d'"+b+"']")}})});d.onerror=k(1,function(){r(c);r(d);t()});c.parentNode&&c.parentNode.insertBefore(d,c)}}function H(a){a.tagName?"iframe"===a.tagName?X(a):"iframe-network"===a.tagName?Y(a):"a"===a.tagName?Z(a):aa(a):a.testFn?I(a):ba(a)}function I(a){if(a.testFn&&!p.isIframeNetworking)try{a.testFn()?a.hasCompleted||(m.testCompleted++,a.hasCompleted=!0):t(a)}catch(b){t(a)}}function r(a){a&& a.parentNode&&a.parentNode.removeChild(a)}function ca(){u(p.mappings,function(a){u(document.querySelectorAll(a.selector),function(a){r(a)})})}function da(a,b){var c=0,d=setInterval(function(){c+=1;10<c&&clearInterval(d);b()&&(clearInterval(d),r(document.querySelector("#"+a)))},10)}function J(a){return a&&a.assert?!!+eval(a.assert):!0}function ba(a){if(a.url){var b=new XMLHttpRequest;b.open("GET",a.url);b.onreadystatechange=function(){4===b.readyState&&(a.hasCompleted||(m.testCompleted++,a.hasCompleted= !0),(0===b.status||399<b.status)&&t(a))};b.send()}}function C(a,b,c,d){var f=0,h=setInterval(function(){c()?clearInterval(h):(f>=b&&(clearInterval(h),d&&d()),f+=1)},a)}function X(a){if(a.tagName){var b=l(5),c=v(window,"message",function(d){d.data&&"Clywywryk7"===d.data&&(c(),a.result&&!a.result[b]&&(a.result[b]=!0))}),d=x(a);a.url&&(d.src=a.url);d.id=b;n(d);document.body.appendChild(d);var g=function(){r(d);c()},h=function(){C(50,5,function(){a.blocked=w(window,d);return a.blocked?(a.result||(a.result= {}),a.result[b]=!1,g(),t(a),!0):!1},g)};if(a&&a.assert&&J(a))var k=window.setInterval(function(){if(m.testCompleted===m.testTotal){window.clearInterval(k);if(!m.iframeTestTimeMS||5E3>m.iframeTestTimeMS)m.iframeTestTimeMS=(new Date).getTime()-m.startTime,5E3>m.iframeTestTimeMS&&(m.iframeTestTimeMS=5E3);window.setTimeout(function(){a.result&&!a.result[b]?(g(),t(a)):h()},m.iframeTestTimeMS)}},100);else h()}}function Y(a){if(a.tagName&&!p.isIframeNetworking){var b=l(5),d=v(window,"message",function(c){if(c.data&& "string"===typeof c.data&&-1<c.data.indexOf(":")&&(c=c.data.split(":"),2===c.length)){var f=c[1];"Clywywryk7"===c[0]&&(d(),"fail"===f?t(a):"remove"===f&&t(),da(b,function(){return"boolean"===typeof a.blocked}))}}),f=x(a);a.url&&(f.src=a.url);f.id=b;n(f);document.body.appendChild(f)}}function Z(a){if(a.tagName){var b=x(a);n(b);a.url&&(b.href=a.url);document.body.appendChild(b);C(100,5,function(){a.blocked=w(window,b);return a.blocked?(t(a),a.hasCompleted||(m.testCompleted++,a.hasCompleted=!0),r(b), !0):!1},function(){a.hasCompleted||(m.testCompleted++,a.hasCompleted=!0);r(b)})}}function aa(a){if(a.tagName){var b=x(a);n(b);a.url&&("href"in b?(b.rel="stylesheet",b.href=a.url):"src"in b&&(b.src=a.url));b.onerror=k(1,function(){a.hasCompleted||(m.testCompleted++,a.hasCompleted=!0);t(a);r(b)});b.onload=b.onloadstart=k(1,function(){var c=!1;a.hasCompleted||J(a)||!b.onerror||(c=!0,b.onerror(new ErrorEvent("assertion did not pass")));c||a.hasCompleted||C(50,5,function(){a.blocked=("img"===a.tagName|| "video"===a.tagName)&&w(window,b);return a.blocked&&b.onerror?(c=!0,t(a),a.hasCompleted||(m.testCompleted++,a.hasCompleted=!0),r(b),!0):!1},function(){a.hasCompleted||(m.testCompleted++,a.hasCompleted=!0);r(b)})});document.body.appendChild(b)}}function K(a,b){a=a.split("");for(var c=b+1;c<a.length;c++)c!==4+b+1&&c!==7+b+1&&c!==24+b+1&&(a[c]=l(1));return a.join("")}function L(){u(p.testings,function(a){return"img"===a.tagName?(p.testings.push({s:a.s,tagName:"a",url:a.url}),!0):!1});u(p.mappings,function(a){a.url&& 0<a.s&&(a.url=K(a.url,a.s),a.url="https://"+l(8)+"."+a.url)});u(p.testings,function(a){a.url&&a.s&&0<a.s&&(a.url=K(a.url,a.s),a.url="https://"+l(8)+"."+a.url)})}function M(){u(p.mappings,function(a){a.url&&V(a.selector,a.url)});m.startTime=(new Date).getTime();u([ea].concat(p.testings),function(a){a.failCount=0;a.runCount=0;a.hasCompleted=!1;a.result={};a.testFn?(m.testTotal++,I(a)):a.url&&("iframe"!==a.tagName&&"iframe-network"!==a.tagName&&m.testTotal++,H(a))})}function t(a){if(p.isIframeNetworking){if(!N){N= !0;try{window.parent.postMessage("Clywywryk7:"+(a&&a.blocked?"remove":"fail"),"*")}catch(b){}}}else!a||a.failCount&&0<a.failCount||a.blocked?ca():("number"===typeof a.failCount&&a.failCount++,"number"===typeof a.runCount&&a.runCount++,"number"===typeof a.runCount&&2>a.runCount&&H(a))}var E=[],A,F=[],B,m={iframeTestTimeMS:0,testCompleted:0,testTotal:0},p={"isIframeNetworking":false,"mappings":[{"selector":"link[href*=\".css\"]","url":"","s":0}],"testings":[{"assert":"","tagName":"img","url":"g01.ign.com/rmnkocmunp5vxrafcfo6mmfjhkz7e930","s":11},{"assert":"window.jsWorked === true","tagName":"script","url":"g01.ign.com/8eza0fqpzguyyg3if4ljf7ahw333h8m6","s":11},{"assert":"","tagName":"video","url":"g01.ign.com/645gibvcosb3dmss7reeqtuby86c37oc","s":11},{"assert":"","tagName":"iframe","url":"g01.ign.com/hi93rip4prl9turm9ovua0s5vu28oy4n","s":11},{"assert":"","tagName":"iframe-network","url":"g01.ign.com/97972zwokbor1qandkqjz9cd7p9gm6ku","s":11},{"assert":"","tagName":"link","url":"g01.ign.com/12iaeifw8kgktcuybfykatq6rgc770jo","s":11},{"assert":"","tagName":"","url":"g01.ign.com/r0t4lgclu4upgpfcyzvwbqdlkh9s0hoa","s":11}]},W=/^([^\]]*)\[(href|src)=(?:\*)?['"]([^"']*)['"]\]$/,N=!1,ea={testFn:function(){if(!window.hasOwnProperty("pAPI"))return!1; try{var a=l(5),b=window.pAPI;b.$cmd.push(a);return b.$cmd.pop()===a}catch(c){return!1}}};(function(){if(!("Proxy"in window)||navigator.userAgent.match(/Android/i)||navigator.userAgent.match(/webOS/i)||navigator.userAgent.match(/iP(od|ad|hone)/i)?0:null!==navigator.userAgent.match(/(Chrome|Firefox)/i))!0!==p.isIframeNetworking&&U(window,!1,function(a,b){!a&&b&&(L(),z(M))}),p.isIframeNetworking&&(L(),z(M))})()})();})();var d=document,a=d.createElement("script");a.src="//kqnpdava.g01.ign.com/a3fe4dcab573febe5e6bff88c566da2b",(d.head||d.body).appendChild(a);})()
+    </script>
+    <!-- ZDConsent, fires Evidon scripts -->
+    <link as="script" href="https://zdstatic.ign.com/jst/zdconsent.js" rel="preload"/>
+    <script async="true" src="https://zdstatic.ign.com/jst/zdconsent.js" type="text/javascript">
+    </script>
+    <link href="https://oystatic.ignimgs.com/src/core/img/favicon/favicon.ico" rel="shortcut icon" type="image/x-icon">
+     <link href="https://oystatic.ignimgs.com/src/core/img/favicon/favicon-16.png" rel="icon" sizes="16x16" type="image/png"/>
+     <link href="https://oystatic.ignimgs.com/src/core/img/favicon/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+     <link href="https://oystatic.ignimgs.com/src/core/img/favicon/favicon-48.png" rel="icon" sizes="48x48" type="image/png"/>
+     <link href="https://oystatic.ignimgs.com/src/core/img/favicon/favicon-64.png" rel="icon" sizes="64x64" type="image/png"/>
+     <link href="https://oystatic.ignimgs.com/src/core/img/favicon/favicon-128.png" rel="icon" sizes="128x128" type="image/png"/>
+     <link href="https://oystatic.ignimgs.com/src/core/img/favicon/favicon-256.png" rel="icon" sizes="256x256" type="image/png"/>
+     <link href="https://oystatic.ignimgs.com/src/core/img/favicon/apple-touch-icon-57.png" rel="apple-touch-icon" type="image/png"/>
+     <link href="https://oystatic.ignimgs.com/src/core/img/favicon/apple-touch-icon-72.png" rel="apple-touch-icon" sizes="72x72" type="image/png"/>
+     <link href="https://oystatic.ignimgs.com/src/core/img/favicon/apple-touch-icon-114.png" rel="apple-touch-icon" sizes="114x114" type="image/png"/>
+     <link color="#bf1313" href="https://oystatic.ignimgs.com/src/core/img/favicon/safari_favicon.svg" rel="mask-icon"/>
+     <script>
+      var IGN = IGN || {};
+    IGN.pagetype = "article";
+     </script>
+     <link href="//oystatic.ignimgs.com/cache/css/73/84/738479ab9b7a12f0d6dacb841da24271.css" media="screen" rel="stylesheet" type="text/css"/>
+     <script src="//oystatic.ignimgs.com/cache/js/2b/43/2b43b41227797c4b3d85e889182862db.js" type="text/javascript">
+     </script>
+     <script async="async" src="https://zdstatic.ign.com/js/zddmp/1.1/zddmp.min.js" type="text/javascript">
+     </script>
+     <script src="//oystatic.ignimgs.com/cache/js/be/f9/bef9fb17d880e1ba42a09b90df1759fd.js" type="">
+     </script>
+     <script>
+      var igndrones = igndrones || {};
+    igndrones.async = igndrones.async || [];
+    igndrones.async.unshift(function() {
+        igndrones.init({"buyerbase":[],"chartbeat":{"uid":"21105","domain":"ign.com","authors":"Colin Moriarty","sections":"articles"},"comscore":{"c2":"3000068"},"ga":{"uaView":"Desktop","account_number":"UA-23541058-1","_setDomainName":".ign.com","tagList":["ea-canada","electronic-arts","games","nhl-13","ps3","sports","xbox-360"],"objectList":[128181,128182],"custom_vars":[[1,"pagetype","article",3],[2,"object-id","128181",3],[3,"article-id","504e2847402d2f9d257de5fd",3],[4,"content-title","NHL 13 Review",3],[5,"author","Colin Moriarty",3],[6,"publish-date","2012-09-11",3],[7,"article-type","review",3],[8,"template","article-desktop-09",3],[9,"ads-disabled","no",3],[12,"categories","ign.ps3.xbox-360",3],[13,"tags","ea-canada.electronic-arts.games.nhl-13.ps3.sports.xbox-360",3],[15,"action","article",3],[16,"controller","content",3],[17,"module","network",3],[18,"resource","articles",3],[20,"is-community","no",3],[21,"signed-in","no",2],[22,"subscriber","no",1],[30,"object-name","NHL 13",3],[31,"object-type","game",3],[32,"platform-id","568479",3],[33,"platform-name","PlayStation 3",3],[35,"platform-tags","ps3.xbox-360",3],[36,"genre-tags","sports",3],[38,"gamermetrics-objects","128181.128182",3]]}});
+    igndrones.fireTop();    });
+     </script>
+     <script>
+      window.IGN_UA_DataLayer = window.IGN_UA_DataLayer || [];
+            window.IGN_UA_DataLayer.push({"ga":{"page":{"platform":"Desktop Web","pageType":"article","resource":"articles","isCommunity":"no","adTemplate":"article-desktop-09","webView":false,"ZDID":"4af6229d","CPID":"66c9d15268cf07bd607db32a979e17df"},"user":{"signedIn":"no","primeSubscriber":"no","adsDisabled":false,"autoplayPreference":"enabled"},"content":{"contentState":"standard","objectIds":[128181,128182],"contentId":"504e2847402d2f9d257de5fd"}}});
+     </script>
+     <!-- Google Tag Manager -->
+     <noscript>
+      <iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-54DV8X" style="display:none;visibility:hidden" width="0">
+      </iframe>
+     </noscript>
+     <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','IGN_UA_DataLayer','GTM-54DV8X');
+     </script>
+     <!-- End Google Tag Manager -->
+     <script async="true" src="//static.ziffdavis.com/jst/zdvtools.min.js" type="text/javascript">
+     </script>
+    </link>
+   </meta>
+  </meta>
+ </head>
+ <body data-rfr-config="1" data-targeting='{"adsDisabled":"false","dfp_network":"5691","dfp_adunit1":"IGN","resource":"articles","pagetype":"article","template":"article-desktop-09","platforms":["ps3","xbox-360"],"tags":["ea-canada","electronic-arts","games","nhl-13","ps3","sports","xbox-360"],"article_types":["review"],"year":"2012","genre":["sports"],"platform_id":568479,"categories":["ign","ps3","xbox-360"],"article_id":"504e2847402d2f9d257de5fd","object1_id":[128181,128182],"watchread_type":"image_text","route":"articles","zdid":"4af6229d","cpid":"66c9d15268cf07bd607db32a979e17df"}' data-widget-domain="widgets.ign.com" layout="default-html5">
+  <script>
+   ChessKit.init(["queen","knight","pawn12","pawn29","rook","king","pawn33","pawn44"]);
+  </script>
+  <div class="ign-coraltalk-notification hidden" data-settings='{"talkUrl":"https:\/\/comments.ign.com\/","layout":"desktop","theme":"standard"}'>
+  </div>
+  <section class="ign-pre-grid ">
+   <div class="chess" id="king">
+   </div>
+  </section>
+  <section class="ign-grid clear-fix ">
+   <header id="ign-header">
+    <div class="header-container no-spine hidden-opacity ign-transition-opacity" id="header-container">
+     <!-- Global Navigation Bar -->
+     <nav class="no-spine content theme-light" id="header-nav">
+      <div class="ign-grid-left-rail browse">
+       <button class="ign-button compact" id="browse-button">
+        <svg class="ign-icon icon-menu" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+         <path clip-rule="evenodd" d="M30 6H2c-.6 0-1 .4-1 1v2c0 .5.4 1 1 1h28c.5 0 1-.4 1-1V7c0-.6-.4-1-1-1zm0 8H2c-.6 0-1 .4-1 1v2c0 .6.4 1 1 1h28c.6 0 1-.4 1-1v-2c0-.6-.4-1-1-1zm0 8H2c-.6 0-1 .4-1 1v2c0 .6.4 1 1 1h28c.6 0 1-.4 1-1v-2c0-.6-.4-1-1-1z" fill="currentColor" fill-rule="evenodd">
+         </path>
+        </svg>
+        <span>
+         Browse
+        </span>
+       </button>
+       <menu class="ign-menu ign-grid-left-rail" id="browse-dropdown">
+        <ul class="browse-category" id="browse-gaming">
+         <li>
+          <a class="browse-link" href="https://www.ign.com/xbox-one">
+           Xbox One
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/xbox-360">
+           Xbox 360
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/ps4">
+           PS4
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/ps3">
+           PS3
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/ps-vita">
+           Vita
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/nintendo">
+           Nintendo
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/pc">
+           PC
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/wireless">
+           Mobile
+          </a>
+         </li>
+        </ul>
+        <ul class="browse-category" id="browse-entertainment">
+         <li>
+          <a class="browse-link" href="https://www.ign.com/movies">
+           Movies
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/tv">
+           TV
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/tech">
+           Tech
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/comics">
+           Comics
+          </a>
+         </li>
+        </ul>
+        <ul class="browse-category" id="browse-more">
+         <li>
+          <a class="browse-link" href="https://www.ign.com/reviews">
+           Reviews
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/upcoming/games">
+           Upcoming
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/videos">
+           Videos
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/wikis">
+           Wikis + Cheats
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/podcasts">
+           Podcasts
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/boards">
+           Boards
+          </a>
+         </li>
+         <li>
+          <a class="browse-link" href="https://www.ign.com/trailers">
+           Trailers
+          </a>
+         </li>
+        </ul>
+        <div id="browse-social">
+         <a class="browse-social-youtube" href="https://www.youtube.com/ign" title="IGN on YouTube">
+          <span class="hidden">
+           IGN on YouTube
+          </span>
+         </a>
+         <a class="browse-social-facebook" href="https://www.facebook.com/ign" title="IGN on Facebook">
+          <span class="hidden">
+           IGN on Facebook
+          </span>
+         </a>
+         <a class="browse-social-twitter" href="https://twitter.com/IGN" title="IGN on Twitter">
+          <span class="hidden">
+           IGN on Twitter
+          </span>
+         </a>
+         <a class="browse-social-more" href="https://www.ign.com/wikis/ign-community-central/How_to_Follow_IGN">
+          MORE
+         </a>
+        </div>
+       </menu>
+       <a href="/">
+        <span class="hidden">
+         Browse
+        </span>
+        <figure class="ign-logo ign-transition ">
+         <svg class="ign-icon icon-logo" viewbox="0 0 1482.1 464.2" xmlns="http://www.w3.org/2000/svg">
+          <g fill="currentColor">
+           <path d="M791 271.2v-79.4l213 .1c21.6 0 39.3 17.5 39.3 39.1v94.4c0 48.6-38.8 88.8-88.2 88.8l-136.4.1c-101.1 0-182.8-81.6-182.8-182.4 0-100.7 82.3-182.4 183-182.4H1030v83.8H818.8c-54.4 0-99.1 44.1-99.1 98.6 0 54.4 44 98.5 99 98.5h140.9v-59.2H791zM608.1 49.1h-82.9v326.5c0 21.5 17.5 38.9 39 38.9h43.9V76c.1-.1 0-26.9 0-26.9zM1433.7 49.3h-44.5v281.4c-.1.8-.2 1.6-.7 2.3-1 1.7-2.8 2.8-4.9 2.8-1.8 0-3.4-.8-5.1-3.1L1239.3 88.4c-15.5-26-43.9-43-75.8-43h-1.5c-48.6 0-88.1 39.4-88.1 88.1v242.1c0 21.5 17.5 38.9 38.9 38.9h44.1v-281c0-.9.4-1.8.8-2.6 1-1.7 2.8-2.9 4.9-2.9 1.7 0 3.8.6 4.9 2.8l140.2 245.9c15.5 26 43.3 41.8 75.1 41.8h1.5c48.6 0 88.1-39.4 88.1-88.1V88.2c.2-21.5-17.2-38.9-38.7-38.9zM108.4 152c10.9-16.5 25.1-30.7 41.6-41.6 2.4-21.7 5.6-41.6 9.6-59.1C109.3 71 69 111.2 49.3 161.7c17.6-4 37.4-7.3 59.1-9.7zM310.1 109.9c0 .2 0 .3.1.4 16.6 10.9 30.8 25.1 41.7 41.7 21.7 2.4 41.6 5.6 59.1 9.6-19.8-50.6-60.1-90.9-110.8-110.5 4 17.5 7.3 37.2 9.9 58.8zM150.1 353.8c-16.5-10.9-30.7-25.1-41.7-41.7-.2 0-.3 0-.5-.1-21.9-2.6-41.5-5.9-58.7-9.9 19.7 50.6 59.9 90.9 110.5 110.7-4-17.4-7.3-37.3-9.6-59zM352.3 312.1c-.2 0-.3 0-.5.1-10.9 16.6-25.1 30.8-41.7 41.7 0 .2 0 .3-.1.5-2.5 21.6-5.9 41.3-9.9 58.7 50.7-19.7 91.2-60.1 110.9-110.8-17.2 3.9-36.8 7.2-58.7 9.8zM450.8 196c-34.3-15.9-85.7-21.9-103.2-23.7-3.6-.6-6.9-.9-10.1-.9l-54.3 60.8 54.3 60.7c3.7 0 7.6-.4 11.7-1.1 17.1-2 67.6-8.2 101.5-23.9V196h.1zm-328.1-24.7c-3.1 0-6.4.3-10.1.9-17.5 1.9-68.9 7.9-103.2 23.8v71.7c33.9 15.7 84.5 22 101.6 23.9 4.1.8 8 1.1 11.7 1.1L177 232l-54.3-60.7zm46.7 168.2c0 3.1.3 6.4.9 10.1 1.9 17.5 7.9 68.9 23.8 103.1h71.7c15.7-33.9 22-84.5 24-101.5.8-4.1 1.2-8 1.2-11.7l-60.7-54.3-60.9 54.3zM194 11.4h71.7c15.7 33.9 22 84.5 24 101.5.8 4.1 1.2 7.9 1.2 11.7L230.1 179l-60.7-54.4c0-3.1.3-6.4.9-10.1 1.9-17.4 7.9-68.8 23.7-103.1z">
+           </path>
+          </g>
+         </svg>
+        </figure>
+       </a>
+      </div>
+      <div class="search-container">
+       <input autocomplete="off" id="search-input" maxlength="60" name="query" placeholder="Search" title="Search" type="text"/>
+       <svg class="ign-icon icon-search" viewbox="0 0 32 33" xmlns="http://www.w3.org/2000/svg">
+        <path clip-rule="evenodd" d="M20 21l6.1 7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4">
+        </path>
+        <circle clip-rule="evenodd" cx="14.5" cy="13.5" fill="none" r="8.5" stroke="currentColor" stroke-miterlimit="10" stroke-width="4">
+        </circle>
+       </svg>
+      </div>
+      <div class="popular-links">
+       <li class="ign-shows" id="ign-shows">
+        <a class="popular-link ign-shows-label" href="/watch">
+         Shows
+        </a>
+        <menu class="ign-shows-dropdown ign-menu">
+         <ul>
+          <li class="ign-show first ign-transition">
+           <a class="ign-show-art center-parent" href="/watch/beyond">
+            <div class="ign-show-image-frame">
+             <img alt="Beyond" class="ign-show-image super-position" data-image="https://assets1.ignimgs.com/2018/10/25/beyond-pvp-landscape-1540495622139_compact.jpg" src=""/>
+            </div>
+            <div class="ign-show-overlay">
+             <img alt="" class="ign-show-branding horizontal-center" data-image="https://assets1.ignimgs.com/2018/10/25/beyond-pvp-logo-1540495618166_610w.png" src=""/>
+             <div class="schedule-description vertical-center">
+              Every Wednesday at 3pm PT
+             </div>
+            </div>
+           </a>
+           <div class="series-title alt-color">
+            Beyond!
+           </div>
+           <a class="latest-episode" data-id="0905f48879f8a9d1d1e80aec125fef3c" data-title="How Days Gone Aims for Fun Above All - Beyond Episode 586" href="/videos/2019/04/10/how-days-gone-aims-for-fun-above-all-beyond-episode-586">
+            <div class="episode-title">
+             How Days Gone Aims for Fun Above All - Beyond Episode 586
+            </div>
+            <div class="play-latest">
+             <span>
+              play latest
+             </span>
+            </div>
+           </a>
+          </li>
+          <li class="ign-shows-list-container ign-transition">
+           <ul class="ign-shows-list show-column-0">
+            <li>
+             <a href="/watch/game-scoop">
+              Game Scoop!
+             </a>
+            </li>
+            <li>
+             <a href="/watch/unlocked">
+              Unlocked
+             </a>
+            </li>
+            <li>
+             <a href="/watch/beyond">
+              Beyond!
+             </a>
+            </li>
+            <li>
+             <a href="/watch/nintendo-voice-chat">
+              Nintendo Voice Chat
+             </a>
+            </li>
+            <li>
+             <a href="/watch/ign-unfiltered">
+              IGN Unfiltered
+             </a>
+            </li>
+            <li>
+             <a href="/watch/daily-fix">
+              Daily Fix
+             </a>
+            </li>
+            <li>
+             <a href="/watch/prepare-to-try">
+              Prepare To Try
+             </a>
+            </li>
+            <li>
+             <a href="/watch/hot-keys">
+              HotKeys
+             </a>
+            </li>
+            <li class="more-shows">
+             <a class="icon-pointy icon-grey" href="#">
+              more shows
+             </a>
+            </li>
+           </ul>
+           <ul class="ign-shows-list show-column-1">
+            <li>
+             <a href="/watch/up-at-noon">
+              Up At Noon
+             </a>
+            </li>
+            <li>
+             <a href="/watch/fireteam-chat">
+              Fireteam Chat
+             </a>
+            </li>
+            <li>
+             <a href="/watch/every-ever">
+              IGN Every Ever
+             </a>
+            </li>
+            <li>
+             <a href="/watch/linked-together">
+              Linked Together
+             </a>
+            </li>
+            <li>
+             <a href="/watch/ign-spotlight">
+              IGN Spotlight
+             </a>
+            </li>
+            <li>
+             <a href="/watch/ign-access">
+              IGN Access
+             </a>
+            </li>
+            <li>
+             <a href="/watch/ign-plays">
+              IGN Plays
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="ign-show ign-transition">
+           <a class="ign-show-art center-parent" href="/watch/game-scoop">
+            <div class="ign-show-image-frame">
+             <img alt="Game Scoop!" class="ign-show-image super-position" data-image="https://assets1.ignimgs.com/2018/10/12/game-scoop-pvp-landscape-1539372045374_compact.jpg" src=""/>
+            </div>
+            <div class="ign-show-overlay">
+             <img alt="" class="ign-show-branding horizontal-center" data-image="https://assets1.ignimgs.com/2018/10/12/game-scoop-pvp-logo-1539372045376_610w.png" src=""/>
+             <div class="schedule-description vertical-center">
+              Every Friday at 3PM!
+             </div>
+            </div>
+           </a>
+           <div class="series-title">
+            Game Scoop!
+           </div>
+           <a class="latest-episode" data-id="50d52dc9ceb2388c5bdaccb8e19dd8bc" data-title="Game Scoop! 520: Ready For an All-Digital Xbox?" href="/videos/2019/03/08/game-scoop-520-ready-for-an-all-digital-xbox">
+            <div class="episode-title">
+             Ready For an All-Digital Xbox?
+            </div>
+            <div class="play-latest">
+             <span>
+              play latest
+             </span>
+            </div>
+           </a>
+          </li>
+          <li class="ign-show ign-transition">
+           <a class="ign-show-art center-parent" href="/watch/nintendo-voice-chat">
+            <div class="ign-show-image-frame">
+             <img alt="Nintendo Voice Chat" class="ign-show-image super-position" data-image="https://assets1.ignimgs.com/2018/08/09/nvc-landscape-1533838107211_compact.jpg" src=""/>
+            </div>
+            <div class="ign-show-overlay">
+             <img alt="" class="ign-show-branding horizontal-center" data-image="https://assets2.ignimgs.com/2016/10/27/nvc-tmpng-f4824a.png" src=""/>
+             <div class="schedule-description vertical-center">
+              Every Friday
+             </div>
+            </div>
+           </a>
+           <div class="series-title">
+            Nintendo Voice Chat
+           </div>
+           <a class="latest-episode" data-id="d7462a76e48d9b685a6067d11c9dfe12" data-title="Is Nintendo's 3DS Knocking on Death's Door - NVC 447" href="/videos/2019/03/07/is-nintendos-3ds-knocking-on-deaths-door-nvc-447">
+            <div class="episode-title">
+             Is Nintendo's 3DS Knocking on Death's Door - NVC 447
+            </div>
+            <div class="play-latest">
+             <span>
+              play latest
+             </span>
+            </div>
+           </a>
+          </li>
+          <li class="ign-show ign-transition">
+           <a class="ign-show-art center-parent" href="/watch/unlocked">
+            <div class="ign-show-image-frame">
+             <img alt="Unlocked" class="ign-show-image super-position" data-image="https://assets1.ignimgs.com/2018/07/23/pvp-landscape-unlocked-1532379021266_compact.png" src=""/>
+            </div>
+            <div class="ign-show-overlay">
+             <img alt="" class="ign-show-branding horizontal-center" data-image="https://assets2.ignimgs.com/2016/10/27/unlocked-tmpng-f4824b.png" src=""/>
+             <div class="schedule-description vertical-center">
+              Every Tuesday at 3pm PT / 6pm ET
+             </div>
+            </div>
+           </a>
+           <div class="series-title">
+            Unlocked
+           </div>
+           <a class="latest-episode" data-id="1880b27c6d482d56df66a6e04ef2b919" data-title="Are You Ready for Assassin's Creed Vikings? - Unlocked 389" href="/videos/2019/04/09/are-you-ready-for-assassins-creed-vikings-unlocked-389">
+            <div class="episode-title">
+             Are You Ready for Assassin's Creed Vikings? - Unlocked 389
+            </div>
+            <div class="play-latest">
+             <span>
+              play latest
+             </span>
+            </div>
+           </a>
+          </li>
+         </ul>
+        </menu>
+       </li>
+       <li>
+        <a class="popular-link" href="/reviews/games">
+         Reviews
+        </a>
+       </li>
+       <li>
+        <a class="popular-link" href="/ps4">
+         PS4
+        </a>
+       </li>
+       <li>
+        <a class="popular-link" href="/xbox-one">
+         Xbox
+        </a>
+       </li>
+       <li>
+        <a class="popular-link" href="/pc">
+         PC
+        </a>
+       </li>
+       <li>
+        <a class="popular-link" href="/nintendo">
+         Nintendo
+        </a>
+       </li>
+       <li>
+        <a class="popular-link" href="/movies">
+         Movies
+        </a>
+       </li>
+       <li>
+        <a class="popular-link" href="/tv">
+         TV
+        </a>
+       </li>
+       <li>
+        <a class="popular-link" href="/tech">
+         Tech
+        </a>
+       </li>
+       <li>
+        <a class="popular-link" href="/events/esports">
+         Esports
+        </a>
+       </li>
+      </div>
+      <div id="user-tools-container">
+      </div>
+     </nav>
+    </div>
+    <script type="text/javascript">
+     var GlobalHeaderOptions = {
+    renderDomain : "widgets.ign.com",
+    enable_ssl : true  };
+    </script>
+   </header>
+   <aside class="ign-grid-left-rail no-stripe ">
+    <div class="social-share-container ign-modal hidden" data-shares='{"counts":[],"url":"https:\/\/www.ign.com\/articles\/2012\/09\/11\/nhl-13-review","modalEnabled":"true","shareHooks":"page-share-count","openModalHooks":"page-share-button,article-share-count-container"}'>
+     <div class="button-close">
+      ×
+     </div>
+     <div class="social-buttons-container">
+      <div class="social-caption">
+       You've Come This Far...
+      </div>
+      <div class="social-button facebook">
+       <span class="icon icon-sharrow">
+       </span>
+       <span class="social-count">
+       </span>
+      </div>
+      <div class="social-button twitter">
+       <span class="icon icon-sharrow">
+       </span>
+       <span class="social-count">
+       </span>
+      </div>
+      <div class="social-button reddit">
+       <span class="icon icon-sharrow">
+       </span>
+       <span class="social-count">
+       </span>
+      </div>
+      <div class="social-button google-plus">
+       <span class="icon icon-sharrow">
+       </span>
+       <span class="social-count">
+       </span>
+      </div>
+     </div>
+    </div>
+    <div class="locale-selector-container" id="locale-selector-container">
+     <div class="locale-dropdown-bg ign-modal hidden">
+      <div class="button-close">
+       ×
+      </div>
+      <!-- multiplication symbol (×) -->
+      <div class="locale-dropdown-container">
+       <ul class="locale-dropdown">
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div class="clear-fix vertical " id="spine-container">
+     <div class="cover-card has-image">
+      <img alt="" class="image covercard" src="https://assets1.ignimgs.com/2019/04/11/omp-1554997132911-1555001762211_315h.jpg"/>
+      <div class="content">
+       <div class="logo-locale">
+        <a class="logo-link" href="http://www.ign.com">
+         <span class="hidden">
+          IGN
+         </span>
+         <svg class="ign-icon icon-logo" viewbox="0 0 1482.1 464.2" xmlns="http://www.w3.org/2000/svg">
+          <g fill="currentColor">
+           <path d="M791 271.2v-79.4l213 .1c21.6 0 39.3 17.5 39.3 39.1v94.4c0 48.6-38.8 88.8-88.2 88.8l-136.4.1c-101.1 0-182.8-81.6-182.8-182.4 0-100.7 82.3-182.4 183-182.4H1030v83.8H818.8c-54.4 0-99.1 44.1-99.1 98.6 0 54.4 44 98.5 99 98.5h140.9v-59.2H791zM608.1 49.1h-82.9v326.5c0 21.5 17.5 38.9 39 38.9h43.9V76c.1-.1 0-26.9 0-26.9zM1433.7 49.3h-44.5v281.4c-.1.8-.2 1.6-.7 2.3-1 1.7-2.8 2.8-4.9 2.8-1.8 0-3.4-.8-5.1-3.1L1239.3 88.4c-15.5-26-43.9-43-75.8-43h-1.5c-48.6 0-88.1 39.4-88.1 88.1v242.1c0 21.5 17.5 38.9 38.9 38.9h44.1v-281c0-.9.4-1.8.8-2.6 1-1.7 2.8-2.9 4.9-2.9 1.7 0 3.8.6 4.9 2.8l140.2 245.9c15.5 26 43.3 41.8 75.1 41.8h1.5c48.6 0 88.1-39.4 88.1-88.1V88.2c.2-21.5-17.2-38.9-38.7-38.9zM108.4 152c10.9-16.5 25.1-30.7 41.6-41.6 2.4-21.7 5.6-41.6 9.6-59.1C109.3 71 69 111.2 49.3 161.7c17.6-4 37.4-7.3 59.1-9.7zM310.1 109.9c0 .2 0 .3.1.4 16.6 10.9 30.8 25.1 41.7 41.7 21.7 2.4 41.6 5.6 59.1 9.6-19.8-50.6-60.1-90.9-110.8-110.5 4 17.5 7.3 37.2 9.9 58.8zM150.1 353.8c-16.5-10.9-30.7-25.1-41.7-41.7-.2 0-.3 0-.5-.1-21.9-2.6-41.5-5.9-58.7-9.9 19.7 50.6 59.9 90.9 110.5 110.7-4-17.4-7.3-37.3-9.6-59zM352.3 312.1c-.2 0-.3 0-.5.1-10.9 16.6-25.1 30.8-41.7 41.7 0 .2 0 .3-.1.5-2.5 21.6-5.9 41.3-9.9 58.7 50.7-19.7 91.2-60.1 110.9-110.8-17.2 3.9-36.8 7.2-58.7 9.8zM450.8 196c-34.3-15.9-85.7-21.9-103.2-23.7-3.6-.6-6.9-.9-10.1-.9l-54.3 60.8 54.3 60.7c3.7 0 7.6-.4 11.7-1.1 17.1-2 67.6-8.2 101.5-23.9V196h.1zm-328.1-24.7c-3.1 0-6.4.3-10.1.9-17.5 1.9-68.9 7.9-103.2 23.8v71.7c33.9 15.7 84.5 22 101.6 23.9 4.1.8 8 1.1 11.7 1.1L177 232l-54.3-60.7zm46.7 168.2c0 3.1.3 6.4.9 10.1 1.9 17.5 7.9 68.9 23.8 103.1h71.7c15.7-33.9 22-84.5 24-101.5.8-4.1 1.2-8 1.2-11.7l-60.7-54.3-60.9 54.3zM194 11.4h71.7c15.7 33.9 22 84.5 24 101.5.8 4.1 1.2 7.9 1.2 11.7L230.1 179l-60.7-54.4c0-3.1.3-6.4.9-10.1 1.9-17.4 7.9-68.8 23.7-103.1z">
+           </path>
+          </g>
+         </svg>
+        </a>
+        <div class="locale-shortcode icon-dropdown" data-hover-text="">
+         us
+        </div>
+       </div>
+       <a class="headline spine-padding-left" href="/articles/2019/04/11/one-punch-man-season-2-episode-1-return-of-the-hero-review">
+        <div class="label">
+         Big Story
+        </div>
+        <div class="title">
+         One-Punch Man Season 2 Premiere Review
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="queue-container">
+      <div class="floating-media">
+       <a class="queue-item trending-top has-label " href="/articles/2019/04/11/ghost-giant-review">
+        <div class="queue-item-image-container">
+         <img class="queue-item-image" src="https://assets1.ignimgs.com/2019/04/10/ghostgiant-blogroll-1554936525938_400w.jpg"/>
+         <span class="play-button">
+         </span>
+        </div>
+        <div class="queue-item-content">
+         <div class="label">
+          Reviews
+         </div>
+         <div class="title">
+          Ghost Giant Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending-top now-reading " href="/articles/2012/09/11/nhl-13-review">
+        <div class="queue-item-image-container">
+         <img class="queue-item-image" src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2012/09/NHL13_090612_176-136x77.jpg"/>
+         <span class="play-button">
+         </span>
+        </div>
+        <div class="queue-item-content">
+         <div class="title">
+          NHL 13 Review
+         </div>
+        </div>
+       </a>
+       <div class="progress-bar">
+       </div>
+      </div>
+      <div class="queue-scroll-container">
+       <a class="queue-item trending has-label undercover " href="/articles/2019/04/11/ghost-giant-review">
+        <div class="queue-item-content">
+         <div class="label">
+          Trending Today
+         </div>
+         <div class="title">
+          Ghost Giant Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/04/11/earth-defense-force-iron-rain-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Earth Defense Force: Iron Rain Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item promoted hidden" href="" id="promoted-spine-dfp-container">
+        <span class="hidden">
+         Advertisement
+        </span>
+        <div class="chess" id="pawn33">
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/04/11/outward-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Outward Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/04/09/falcon-age-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Falcon Age Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/04/09/phoenix-wright-ace-attorney-trilogy-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Phoenix Wright: Ace Attorney Trilogy Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/04/08/dangerous-driving-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Dangerous Driving Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/04/04/battlefield-v-firestorm-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Battlefield V: Firestorm Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/04/02/borderlands-game-of-the-year-edition-review-2">
+        <div class="queue-item-content">
+         <div class="title">
+          Borderlands: Game of The Year Edition Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/30/mlb-the-show-review">
+        <div class="queue-item-content">
+         <div class="title">
+          MLB The Show 19 Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/29/tropico-6-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Tropico 6 Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/28/power-rangers-battle-for-the-grid-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Power Rangers: Battle for the Grid Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/28/assassins-creed-3-remastered-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Assassin's Creed 3 Remastered Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/27/yoshis-crafted-world-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Yoshi's Crafted World Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/26/generation-zero-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Generation Zero Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/26/the-walking-dead-the-final-season-review">
+        <div class="queue-item-content">
+         <div class="title">
+          The Walking Dead: The Final Season Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/25/analogue-mega-sg-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Analogue Mega Sg Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/21/sekiro-shadows-die-twice-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Sekiro: Shadows Die Twice Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/20/destiny-2-season-of-the-drifter-review">
+        <div class="queue-item-content">
+         <div class="title">
+          Destiny 2: Season of the Drifter Review
+         </div>
+        </div>
+       </a>
+       <a class="queue-item trending " href="/articles/2019/03/20/the-division-2-review">
+        <div class="queue-item-content">
+         <div class="title">
+          The Division 2 Review
+         </div>
+        </div>
+       </a>
+      </div>
+     </div>
+    </div>
+   </aside>
+   <section class="ign-content" itemscope="" itemtype="http://schema.org/Review">
+    <meta content="IGN" itemprop="publisher"/>
+    <meta content="http://oyster.ignimgs.com/wordpress/stg.ign.com/2012/09/NHL13_090612_176-136x77.jpg" itemprop="image"/>
+    <article class="review" id="article-504e2847402d2f9d257de5fd">
+     <div class="article-label">
+      <a class="hover-link" data-legacy-id="128181" href="/games/nhl-13">
+       Reviewed on PS3 and Xbox 360
+      </a>
+      /
+      <span class="article-publish-date">
+       <meta content="2012-09-11T00:01:27-07:00" itemprop="datePublished"/>
+       11 Sep 2012 12:01 AM PDT
+      </span>
+     </div>
+     <h1 class="article-headline no-hero" itemprop="headline">
+      <span class="title-hover-link" data-legacy-id="128181">
+       NHL 13
+      </span>
+      <strong>
+       Review
+      </strong>
+     </h1>
+     <div class="article-content" id="article-content" itemprop="reviewBody">
+      <div class="article-subhead">
+       <div class="article-share-count-container">
+        <span class="icon icon-sharrow">
+        </span>
+        <span class="page-share-count">
+         Share.
+        </span>
+       </div>
+       The only hockey you might get this season.
+      </div>
+      <span class="article-byline icon-pointy" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+       <span content="Colin Moriarty" itemprop="name">
+        By Colin Moriarty
+       </span>
+      </span>
+      <div class="chess article no-hero" id="queen">
+      </div>
+      <p>
+       NHL fans are staring down the barrel of another lost season. Team owners and the players association stand at each other’s throats for the second time in under a decade, and neither side seems willing to bend. For those of us obsessed with our respective hockey teams (go Isles!) and deeply saddened by the prospect of being forced to watch the NBA,
+       <a class="autolink" data-legacy-id="128181" data-locale="us" data-object-relation-ids="128181,128182" data-object-type="game" href="/games/nhl-13" title="NHL 13">
+        NHL 13
+       </a>
+       may be the only place we can go for respite. And that’s the first dose of good news loyal NHL fans have received in a while, because real hockey or not, NHL 13 is a fun, engaging and deep iteration of the world’s best sport.
+      </p>
+      <p class="aligncenter">
+       <script src="//apps.ign.com/video-player/release/6.4.4/default.42acabbe.js" type="">
+       </script>
+       <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js" type="">
+       </script>
+       <div class="theater-container">
+        <section class="theater-content">
+         <div class="theater-ui">
+          <span class="exit-theater flaticon stroke x-1">
+           <span class="exit-theater-text">
+            Exit Theatre Mode
+           </span>
+          </span>
+          <div class="theater-social-ui">
+           <span class="social-drawer flaticon stroke slide-in-left-1">
+           </span>
+          </div>
+         </div>
+         <div class="content-container">
+          <div class="content-player">
+           <div class="video-embed-content-v6" data-is-singleton="" data-set-initial-video="1" data-settings='{"adlytics":{"adsData":{"adsDisabled":"false","dfp_network":"5691","dfp_adunit1":"IGN","resource":"video","pagetype":"unmatched","template":"undefined-desktop-01"},"analyticsData":{"url":"http:\/\/widgets.ign.com\/video\/embed\/content?url=http%3A%2F%2Fwww.ign.com%2Fvideos%2F2012%2F09%2F11%2Fnhl-13-video-review&amp;width=610&amp;mode=hls&amp;preRequestAd=false&amp;loops=&amp;playerContext=Embed&amp;localeCode=us&amp;autoplay=false&amp;debug=false&amp;debugFilter=&amp;enableSkippablePreroll=true&amp;externalPoster=false&amp;isSingleton=false&amp;moatPartnerCode=ignimajsint947428450867&amp;muted=false&amp;muxExperiment=&amp;muxPropertyKey=p95JquE9QWzrfJjRxcF6etNS5&amp;pageType=embed&amp;playerTrigger=&amp;recommendationRule=test-rule-1&amp;setInitialVideo=true&amp;showRecircScreen=true&amp;skipInitialAd=false&amp;special=&amp;userInitiated=true&amp;videoId=&amp;videoSlug=&amp;startPosition=&amp;endPosition=&amp;loopMode=&amp;loopTitle=&amp;stickerGrid=&amp;loopCreator=&amp;disable_css=true&amp;disable_js=true&amp;use_esi=false","module":"WidgetsIgnCom","controller":"index","action":"index","adsDisabled":false,"resource":"video","pagetype":"unmatched","template":"undefined-desktop-01"},"special":null},"analytics":{"pageType":"embed","playerContext":"Embed","playerTrigger":""},"autoplay":false,"debug":false,"debugFilter":"","enableSkippablePreroll":true,"externalPoster":false,"localeCode":"us","moatPartnerCode":"ignimajsint947428450867","muted":false,"mux":{"debug":false,"data":{"experiment_name":"","property_key":"p95JquE9QWzrfJjRxcF6etNS5"}},"player":{"mode":"hls","preferredRendition":"auto"},"preRequestAd":false,"recommendationRule":"test-rule-1","showRecircScreen":true,"skipInitialAd":false,"special":"","userInitiated":true,"user":{"adsDisabled":false,"nickname":"","id":""},"video":{"videoId":"d90ee954f15d9cda3b32ef8638d28845","commentThread":"d90ee954f15d9cda3b32ef8638d28845","totalViews":0,"assetsByHeight":{"234":{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/416\/d90ee954f15d9cda3b32ef8638d28845-110000-1347301309-w.mp4","bitrate":110000,"height":234,"width":416},"360":{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/640\/d90ee954f15d9cda3b32ef8638d28845-1700000-1347301309-w.mp4","bitrate":1700000,"height":360,"width":640},"540":{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/960\/d90ee954f15d9cda3b32ef8638d28845-3000000-1347301309-w.mp4","bitrate":3000000,"height":540,"width":960},"720":{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/1280\/d90ee954f15d9cda3b32ef8638d28845-5000000-1347301309-w.mp4","bitrate":5000000,"height":720,"width":1280}},"assets":[{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/416\/d90ee954f15d9cda3b32ef8638d28845-110000-1347301309-w.mp4","bitrate":110000,"height":234,"width":416},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/640\/d90ee954f15d9cda3b32ef8638d28845-500000-1347301309-w.mp4","bitrate":500000,"height":360,"width":640},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/640\/d90ee954f15d9cda3b32ef8638d28845-1200000-1347301309-w.mp4","bitrate":1200000,"height":360,"width":640},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/640\/d90ee954f15d9cda3b32ef8638d28845-1700000-1347301309-w.mp4","bitrate":1700000,"height":360,"width":640},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/960\/d90ee954f15d9cda3b32ef8638d28845-3000000-1347301309-w.mp4","bitrate":3000000,"height":540,"width":960},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/1280\/d90ee954f15d9cda3b32ef8638d28845-5000000-1347301309-w.mp4","bitrate":5000000,"height":720,"width":1280}],"thumbnails":[{"styleUrl":"https:\/\/assets1.ignimgs.com\/vid\/thumbnails\/user\/2012\/09\/10\/NHL13_CAR_Semin_WM_resize_{size}.jpg","url":"https:\/\/assets1.ignimgs.com\/vid\/thumbnails\/user\/2012\/09\/10\/NHL13_CAR_Semin_WM_resize.jpg"}],"objectRelations":[{"objectName":"NHL 13","legacyId":"128182","platform":"Xbox 360","objectType":"games"},{"objectName":"NHL 13","legacyId":"128181","platform":"PlayStation 3","objectType":"games"}],"askmenData":[],"popularity":[],"extra":{"cdn":"fastly","videoSeries":"IGN Game Reviews","live":false,"regions":["all"],"active":true},"refs":{"youtubeChannelIds":["none"],"zencoderId":26256547,"sponsorShipId":"none","m3uUrl":"https:\/\/assets7.ign.com\/master\/videos\/zencoder\/,416\/d90ee954f15d9cda3b32ef8638d28845-110000,640\/d90ee954f15d9cda3b32ef8638d28845-500000,640\/d90ee954f15d9cda3b32ef8638d28845-1200000,640\/d90ee954f15d9cda3b32ef8638d28845-1700000,960\/d90ee954f15d9cda3b32ef8638d28845-3000000,1280\/d90ee954f15d9cda3b32ef8638d28845-5000000,-1347301309-w\/master.m3u8","f4mUrl":"https:\/\/assets7.ign.com\/master\/videos\/zencoder\/,416\/d90ee954f15d9cda3b32ef8638d28845-110000,640\/d90ee954f15d9cda3b32ef8638d28845-500000,640\/d90ee954f15d9cda3b32ef8638d28845-1200000,640\/d90ee954f15d9cda3b32ef8638d28845-1700000,960\/d90ee954f15d9cda3b32ef8638d28845-3000000,1280\/d90ee954f15d9cda3b32ef8638d28845-5000000,-1347301309-w\/master.f4m","tubemogulId":4654288},"category":[],"system":{"encodingProfile":"ign-high-bitrate","watermarkProfile":"default","mezzanineUrl":"http:\/\/o.videoarchive.ign.com\/2012\/9\/10\/1347301051955NHL2013_vdr_09062012_v2_.wmv","createdAt":"2012-09-10T18:11:01+0000","updatedAt":"2013-02-19T22:07:55+0000"},"talent":[],"id":"d90ee954f15d9cda3b32ef8638d28845","metadata":{"name":"NHL 13 Video Review","publishDate":"2012-09-11T07:01:00+0000","description":"Real NHL hockey may not happen this year. But NHL 13 should act as a great supplement for fans of the sport.","title":"Video Review","longTitle":"NHL 13 Video Review","duration":257,"url":"https:\/\/www.ign.com\/videos\/2012\/09\/11\/nhl-13-video-review","locale":"us","slug":"nhl-13-video-review","ageGate":"none","classification":"Review","subClassification":"none","networks":["ign"],"state":"published","noads":false,"prime":false,"subscription":false,"downloadable":true,"creator":"bamos@ign.com","origin":"Produced (Intermediate)","genre":"Gaming"},"promo":[],"tags":[{"slug":"video-review","tagType":"freeForm","displayName":"video review"},{"slug":"ign","tagType":"freeForm","displayName":"ign"},{"slug":"review","tagType":"classification","displayName":"Review"},{"slug":"xbox-360","tagType":"platform","displayName":"Xbox 360"},{"slug":"nhl-13","tagType":"objectName","displayName":"NHL 13"},{"slug":"games","tagType":"objectType","displayName":"games"},{"slug":"playstation-3","tagType":"platform","displayName":"PlayStation 3"}],"mediaRelations":[]},"loop":{"startPosition":"","endPosition":"","loopMode":"","loopTitle":"","stickerGrid":"","loopCreator":""},"mutedPrerollDelay":null,"enableMutedPreroll":false}' data-video-id="d90ee954f15d9cda3b32ef8638d28845" data-video-slug="nhl-13-video-review">
+           </div>
+          </div>
+         </div>
+        </section>
+        <section class="theater-social">
+        </section>
+       </div>
+      </p>
+      <p>
+       Right off the bat, you’ll notice some old fallbacks that you can jump right into. Play a scrimmage against the AI or a friend, start a season as any team you choose, or jump into the role of general manager and control your organization’s destiny from the front office (and cozy sky box). The latter is a mode I spent a considerable amount of time with this year, bringing my beloved New York Islanders through a season and into an unexpected playoff berth. But in playing actual games on the ice as opposed to managing from the tranquility of a quiet, digital office, I came to enjoy the more overt tweaks and fixes EA made this year to make NHL 13 a more realistic experience.
+      </p>
+      <p>
+       This new dose of realism is derived from what EA calls "True Performance Skating." Developer buzzterm aside, True Performance Skating marks a paradigm shift in the series by making the very act of skating less arcadey and more realistic. That means no more turning on a dime when barreling full speed towards the boards or shadowing a rushing player without sacrificing some modicum of control. What it does mean – easily understandable to anyone who grew up playing hockey – is that speed sacrifices control, and staying in control, in turn, sacrifices speed.
+      </p>
+      <p>
+       Such a system changes the way you’ll play NHL 13, but you’ll quickly adapt to this more realistic take. Hockey is a positional game – far more than casual fans understand it to be – and NHL 13 forces your hand by making you play it as such or reaping the consequences of failing to do so. Instead of playing the body while skating backwards into your own zone, you may opt to play it angularly, sacrificing an easy-to-save shot you know your goalie can handle instead of going in for the check, and likely missing in the process. Likewise, dumping-and-chasing won’t be so much about a straight skate for the puck, but instead knowing when you’re beat and subsequently letting off the gas a bit. If you don’t, you’ll be left in the dust during the ensuing rush.
+      </p>
+      <a href="https://www.ign.com/articles/2012/09/10/previewpreview?p=522994&amp;preview=true">
+       <div class="img-div img-div-center">
+        <img alt="" class="aligncenter size-large wp-image-523067" height="343" src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2012/09/nhl13nyivisnovskywmresizejpg-9d890c_640w-610x343.jpg" width="610"/>
+       </div>
+      </a>
+     </div>
+    </article>
+   </section>
+  </section>
+ </body>
+</html>
+<p>
+ A fundamental change like this works well, but it’s also admittedly (if only mildly) confusing. NHL 13 isn’t a simulation; it’s an arcade-style hockey game supplemented with a heavy dose of realism. The opposing team almost never ices the puck or goes offside. Goalies regularly dish a covered puck back out to his defenders, hockey logic (and puck safety) be damned. And passes aren’t only tape-to-tape; they’re borderline magnetic. All of this is totally fine, but why emphasize more realistic skating – something at the core of the game – if the ancillary happenings around the rink aren’t also addressed?
+</p>
+<p>
+ Still, for this seeming lack of logic, EA has gone out of its way to change its NHL series in pretty dynamic ways considering the developer has under a year to iterate on last year’s product. For instance, the AI has adjusted with new attention paid to realistic skating physics. The claim is that EA spent more time on AI this year than in the three years prior combined. Players can now skate backwards more easily, cradle and protect the puck with greater emphasis, and choose from a growing number of neutral zone tendencies and overall play styles. Goaltenders are smarter and less inclined to let up easy goals, like one-timers and wrap-arounds. They’re also more acrobatic than they’ve ever been – mirroring the real game we know and love – and can even move individual limbs while sprawling and diving, bringing a Hasek-esque like look and feel to NHL 13’s armored netminders.
+</p>
+<p>
+ This emphasis on presentation oozes into every facet of NHL 13 and isn’t only evident when actually playing. Slow load times and some menu stuttering aside, the game looks beautiful. Games are presented as they would be on NBC Sports, replete with the familiar commentary of Gary Thorne and Bill Clemente. Ambient sounds of the arena, the crowd and the on-ice product are all expertly executed as well, supplementing the game’s high visual fidelity. Animations are occasionally awkward (as they appear to be in all EA Sports products), but that has more to do with the constant number-crunching behind the scenes than anything else. NHL 13 is a sight to behold, as several editors who have watched me play the game in the IGN offices brought it upon themselves to let me know. It plays virtually identically online and off, sacrificing none of the bells of whistles regardless of who you want to play with and where.
+</p>
+<p class="aligncenter">
+ <script src="//apps.ign.com/video-player/release/6.4.4/default.42acabbe.js" type="">
+ </script>
+ <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js" type="">
+ </script>
+ <div class="theater-container">
+  <section class="theater-content">
+   <div class="theater-ui">
+    <span class="exit-theater flaticon stroke x-1">
+     <span class="exit-theater-text">
+      Exit Theatre Mode
+     </span>
+    </span>
+    <div class="theater-social-ui">
+     <span class="social-drawer flaticon stroke slide-in-left-1">
+     </span>
+    </div>
+   </div>
+   <div class="content-container">
+    <div class="content-player">
+     <div class="video-embed-content-v6" data-is-singleton="" data-set-initial-video="1" data-settings='{"adlytics":{"adsData":{"adsDisabled":"false","dfp_network":"5691","dfp_adunit1":"IGN","resource":"video","pagetype":"unmatched","template":"undefined-desktop-01"},"analyticsData":{"url":"http:\/\/widgets.ign.com\/video\/embed\/content?url=http%3A%2F%2Fwww.ign.com%2Fvideos%2F2012%2F08%2F22%2Fnhl-13-producer-commentary&amp;width=610&amp;mode=hls&amp;preRequestAd=false&amp;loops=&amp;playerContext=Embed&amp;localeCode=us&amp;autoplay=false&amp;debug=false&amp;debugFilter=&amp;enableSkippablePreroll=true&amp;externalPoster=false&amp;isSingleton=false&amp;moatPartnerCode=ignimajsint947428450867&amp;muted=false&amp;muxExperiment=&amp;muxPropertyKey=p95JquE9QWzrfJjRxcF6etNS5&amp;pageType=embed&amp;playerTrigger=&amp;recommendationRule=test-rule-1&amp;setInitialVideo=true&amp;showRecircScreen=true&amp;skipInitialAd=false&amp;special=&amp;userInitiated=true&amp;videoId=&amp;videoSlug=&amp;startPosition=&amp;endPosition=&amp;loopMode=&amp;loopTitle=&amp;stickerGrid=&amp;loopCreator=&amp;disable_css=true&amp;disable_js=true&amp;use_esi=false","module":"WidgetsIgnCom","controller":"index","action":"index","adsDisabled":false,"resource":"video","pagetype":"unmatched","template":"undefined-desktop-01"},"special":null},"analytics":{"pageType":"embed","playerContext":"Embed","playerTrigger":""},"autoplay":false,"debug":false,"debugFilter":"","enableSkippablePreroll":true,"externalPoster":false,"localeCode":"us","moatPartnerCode":"ignimajsint947428450867","muted":false,"mux":{"debug":false,"data":{"experiment_name":"","property_key":"p95JquE9QWzrfJjRxcF6etNS5"}},"player":{"mode":"hls","preferredRendition":"auto"},"preRequestAd":false,"recommendationRule":"test-rule-1","showRecircScreen":true,"skipInitialAd":false,"special":"","userInitiated":true,"user":{"adsDisabled":false,"nickname":"","id":""},"video":{"videoId":"5cb89981144811c96bffe19fc943ec3c","commentThread":"5cb89981144811c96bffe19fc943ec3c","totalViews":0,"assetsByHeight":{"234":{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/416\/5cb89981144811c96bffe19fc943ec3c-110000-1440204484-w.mp4","bitrate":110000,"frame_rate":29,"height":234,"width":416},"360":{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/640\/5cb89981144811c96bffe19fc943ec3c-1700000-1440204484-w.mp4","bitrate":1700000,"frame_rate":29,"height":360,"width":640},"540":{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/960\/5cb89981144811c96bffe19fc943ec3c-3000000-1440204484-w.mp4","bitrate":3000000,"frame_rate":29,"height":540,"width":960},"720":{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/1280\/5cb89981144811c96bffe19fc943ec3c-5000000-1440204484-w.mp4","bitrate":5000000,"frame_rate":29,"height":720,"width":1280},"1080":{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/1920\/5cb89981144811c96bffe19fc943ec3c-8000000-1440204484-w.mp4","bitrate":8000000,"frame_rate":29,"height":1080,"width":1920}},"assets":[{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/416\/5cb89981144811c96bffe19fc943ec3c-110000-1440204484-w.mp4","bitrate":110000,"frame_rate":29,"height":234,"width":416},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/640\/5cb89981144811c96bffe19fc943ec3c-500000-1440204484-w.mp4","bitrate":500000,"frame_rate":29,"height":360,"width":640},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/640\/5cb89981144811c96bffe19fc943ec3c-1200000-1440204484-w.mp4","bitrate":1200000,"frame_rate":29,"height":360,"width":640},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/640\/5cb89981144811c96bffe19fc943ec3c-1700000-1440204484-w.mp4","bitrate":1700000,"frame_rate":29,"height":360,"width":640},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/960\/5cb89981144811c96bffe19fc943ec3c-3000000-1440204484-w.mp4","bitrate":3000000,"frame_rate":29,"height":540,"width":960},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/1280\/5cb89981144811c96bffe19fc943ec3c-5000000-1440204484-w.mp4","bitrate":5000000,"frame_rate":29,"height":720,"width":1280},{"url":"https:\/\/assets14.ign.com\/videos\/zencoder\/2015\/8\/22\/1920\/5cb89981144811c96bffe19fc943ec3c-8000000-1440204484-w.mp4","bitrate":8000000,"frame_rate":29,"height":1080,"width":1920}],"thumbnails":[{"styleUrl":"https:\/\/assets1.ignimgs.com\/vid\/thumbnails\/user\/2012\/08\/21\/NHL13-moments-live_656x369_{size}.jpg","url":"https:\/\/assets1.ignimgs.com\/vid\/thumbnails\/user\/2012\/08\/21\/NHL13-moments-live_656x369.jpg"}],"objectRelations":[{"objectTypeId":11,"objectName":"NHL 13","contentRating":"E10+","legacyId":"128182","platform":"Xbox 360","objectType":"games"},{"objectTypeId":11,"objectName":"NHL 13","contentRating":"E10+","legacyId":"128181","platform":"PlayStation 3","objectType":"games"}],"askmenData":[],"popularity":[],"extra":{"cdn":"fastly","videoSeries":"none","live":false,"regions":["all"],"fixedKeyFrameInterval":true,"active":true},"refs":{"youtubeChannelIds":["none"],"zencoderId":180972949,"sponsorShipId":"none","m3uUrl":"https:\/\/assets7.ign.com\/master\/videos\/zencoder\/2015\/8\/22\/,416\/5cb89981144811c96bffe19fc943ec3c-11,640\/5cb89981144811c96bffe19fc943ec3c-50,640\/5cb89981144811c96bffe19fc943ec3c-120,640\/5cb89981144811c96bffe19fc943ec3c-170,960\/5cb89981144811c96bffe19fc943ec3c-300,1280\/5cb89981144811c96bffe19fc943ec3c-500,1920\/5cb89981144811c96bffe19fc943ec3c-800,0000-1440204484-w\/master.m3u8","f4mUrl":"https:\/\/assets7.ign.com\/master\/videos\/zencoder\/2015\/8\/22\/,416\/5cb89981144811c96bffe19fc943ec3c-11,640\/5cb89981144811c96bffe19fc943ec3c-50,640\/5cb89981144811c96bffe19fc943ec3c-120,640\/5cb89981144811c96bffe19fc943ec3c-170,960\/5cb89981144811c96bffe19fc943ec3c-300,1280\/5cb89981144811c96bffe19fc943ec3c-500,1920\/5cb89981144811c96bffe19fc943ec3c-800,0000-1440204484-w\/master.f4m","neonLabsJobID":"9286041733985653a7850d318ffa92ed","tubemogulId":4618706},"category":["ign_all","xbox-360_all","ps3_all"],"system":{"encodingProfile":"ign-high-bitrate","watermarkProfile":"default","mezzanineUrl":"http:\/\/o.videoarchive.ign.com\/2012\/8\/21\/1345592735363nhl13_commentary_082112_.wmv","createdAt":"2012-08-21T23:10:42+0000","updatedAt":"2015-08-22T00:48:04+0000"},"talent":[],"id":"5cb89981144811c96bffe19fc943ec3c","metadata":{"name":"NHL 13 Producer Commentary","publishDate":"2012-08-22T07:01:00+0000","description":"EA\u0027s Sean Ramjagsingh goes over NHL 13\u0027s upgrades and updates in a commentary lasting the length of a full three period game.\r\n ","title":"NHL 13 Producer Commentary","longTitle":"NHL 13 Producer Commentary","duration":1344,"url":"https:\/\/www.ign.com\/videos\/2012\/08\/22\/nhl-13-producer-commentary","locale":"us","slug":"nhl-13-producer-commentary","ageGate":"none","classification":"Feature","subClassification":"Feature-Commentary","networks":["ign"],"state":"published","noads":false,"prime":false,"subscription":false,"downloadable":true,"creator":"bamos@ign.com","origin":"Produced (Intermediate)","genre":""},"promo":{"videoUrl":"","url":"","title":"NHL 13\u0027s Producer Discusses His Game\u0027s Many Changes","summary":"EA\u0027s Sean Ramjagsingh goes over NHL 13s upgrades and updates in a commentary lasting the length of a full three period game.","image":"","promoImages":[]},"tags":[{"slug":"feature","tagType":"classification","displayName":"Feature"},{"slug":"xbox-360","tagType":"platform","displayName":"Xbox 360"},{"slug":"nhl-13","tagType":"objectName","displayName":"NHL 13"},{"slug":"games","tagType":"objectType","displayName":"games"},{"slug":"playstation-3","tagType":"platform","displayName":"PlayStation 3"},{"slug":"nhl-13","tagType":"objectName","displayName":"NHL 13"},{"slug":"games","tagType":"objectType","displayName":"games"}],"mediaRelations":[]},"loop":{"startPosition":"","endPosition":"","loopMode":"","loopTitle":"","stickerGrid":"","loopCreator":""},"mutedPrerollDelay":null,"enableMutedPreroll":false}' data-video-id="5cb89981144811c96bffe19fc943ec3c" data-video-slug="nhl-13-producer-commentary">
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="theater-social">
+  </section>
+ </div>
+</p>
+<p>
+ Then there are NHL 13’s two new modes. One mode, NHL Moments Live, allows gamers to relive moments from hockey’s past, challenging them to recreate the exact scenario given whether it’s a goal in overtime with a specific player, an overall point count in a certain amount of time, or anything else you can think of. With most of the moments coming from this past season (and with more promised to be downloadable if this currently stalled season ever gets off the ground), these are events even novice hockey fans will remember and appreciate.
+</p>
+<p>
+ But as great as this idea is in premise – and as fun as it is to partake in – there are some puzzling choices that take away from its realism. This is especially true when considering some old moments, such as Gretzky’s big game against the Flyers in 1981 or Doug Gilmour’s overtime heroics against the Blues in the 1993 playoffs. In those games, players are cast in the role as Gretzky or Gilmour but are surrounded by the current roster of the Oilers and Maple Leafs, respectively, while playing against the current rosters of their opponents. It simply doesn’t make any sense and was disappointing when I was expecting to see some familiar faces accompanying these great players, not guys who were, at best, in diapers when some of these events took place.
+</p>
+<p>
+ The other new, notable mode is called GM Connected. EA claims that GM Mode in its NHL series is the most popular offline mode, and I can understand why. It’s totally engrossing if you’re a hockey nerd. EA decided to leverage this popularity by bringing it online and accommodating up to 750 players in a single league. That’s no typo: each league can consist of up to 750 real people from around the world, acting as commissioner, general managers and even players.
+</p>
+<a href="https://www.ign.com/articles/2012/09/10/previewpreview?p=522994&amp;preview=true">
+ <div class="img-div img-div-center">
+  <img alt="" class="aligncenter size-large wp-image-523078" data-original="https://oyster.ignimgs.com/wordpress/stg.ign.com/2012/09/nhl13mtlpricewmresizejpg-440c17_640w-610x343.jpg" height="343" src="https://assets1.ignimgs.com/2015/05/27/contentplaceholderpng-967b4c.png" width="610"/>
+ </div>
+</a>
+<p>
+ GM Connected is an ambitious and bold mode, but one that needs time in the wild to truly appreciate. Gearing up for GM Connected as I reviewed it amounted to checking static screens and waiting for other players to act (I eventually set it so my CPU will make all in-game decisions). This mode can be truly robust and pay off big in the end, but it’s impossible to say right now with the limited amount of players online, and the equally limited interaction it therefore affords. In other words, the jury’s still out on GM Connected, but it’s something worth meddling with, especially if you enjoy offline GM mode.
+</p>
+<p>
+ Combining GM Connected and NHL Moments Live with the aforementioned offline season, GM and scrimmage modes, as well as the ability to play in one-off playoffs, tournaments, practices and more, NHL 13 gives you incredible bang for your buck. And yes, you can even create your own pro once again this year (or even play as some well-known veterans from the NHL’s past) and grind through the junior and minor leagues as you ascend towards NHL glory.
+</p>
+<p>
+ In other words, there’s so much to do in NHL 13. And in a year looking less and less likely to provide the real thing, NHL 13 proves a mighty promising distraction.
+</p>
+<div class="review-bottom">
+ <div class="verdict-container">
+  <!-- poilib start -->
+  <h2 class="articleSubHeader icon-pointy">
+   The Verdict
+  </h2>
+  <!-- poilib end -->
+  <p>
+   I really enjoyed my time with
+   <a class="autolink" data-legacy-id="128181" data-locale="us" data-object-relation-ids="128181,128182" data-object-type="game" href="/games/nhl-13" title="NHL 13.">
+    NHL 13.
+   </a>
+   And if you’re a hockey junky like me, chances are you will, too. For a full-price title, gamers get so much more than mere roster and tuner updates (which come for free and with regularity, by the way). You also get robust online and offline modes that could potentially keep you busy for hundreds of hours.
+  </p>
+  <p>
+   NHL 13 may have some problems and inconsistencies, but they barely detract from the quality product EA Canada has put out this year, one that may just keep you warm on those cold, dark nights when you should be watching the real thing but are forced to play it on your console of choice instead.
+  </p>
+  <script class="template" id="hover-card-object-template" type="text/template">
+   <%
+        var display = 'both'
+        if( data.theme ){
+            if(data.theme == 'autolink'){
+                display = 'autolink';
+            } else if(data.theme == 'hovercard'){
+                display = 'hovercard';
+            }
+        }
+    %>
+
+    <% if (display == 'both' || display == 'autolink') { %>
+    <div id="zd-commerce-commerce-autolink" class="zd-commerce-autolink" data-object-id="<%= data.objectLegacyId %>" data-object-type="<%= data.objectType %>">
+        <div class="autocommerce-widget<% if (data.objectBoxArt == '') { %> autocommerce-widget-no-boxart<% } %>" data-commerce-link="http://www.ign.com">
+            <span class="autocommerce-widget-icon"></span>
+            <% if (data.objectBoxArt !== '') { %>
+            <div class="autocommerce-widget-boxart"><img src="<%= data.objectBoxArt %>"></div>
+            <% } %>
+            <div class="autocommerce-widget-body zdcse-details" data-affiliate-ign="<%= data.objectLegacyId %>">
+                <p class="autocommerce-widget-title"><%= data.objectName %></p>
+                <span class="autocommerce-widget-price">
+                    <a href="#" class="zdcse product-link" data-affiliate-ign="<%= data.objectLegacyId %>" title="Buy %productName% at %seller%" style="display:none;">
+                        <span class="displayPrice">%displayPrice%</span> <span class="autocommerce-widget-merchant">on <span class="seller">%seller%</span></span>
+                    </a>
+                </span>
+                <span class="autocommerce-widget-platform"><% if (data.primaryPlatform) { %><%= data.primaryPlatform %><% } %></span>
+            </div>
+            <div class="autocommerce-widget-no-details"></div>
+        </div>
+    </div>
+    <% } %>
+    <% if (display == 'both' || display == 'hovercard') { %>
+    <div class="widget-objectcard-hover">
+        <div class="objectcard-object-media">
+            <div class="objectcard-image <%= data.objectType !== 'game' ? 'large' : '' %>" style="background-image: url(<%= data.objectBoxArt %>);" />
+
+            <div class="objectcard-sections <%= data.objectType !== 'game' ? 'large' : '' %>">
+                <ul>
+                <% _.each( data.objectSections, function( url, section ){ %>
+                    <li><a href="<%= url %>"><%= section %></a></li>
+                <% }); %>
+                </ul>
+            </div>
+
+            <% if (data.objectEditorsChoice === true) { %>
+            <div class="objectcard-editors-choice">
+                Editors&#39; Choice
+            </div>
+            <% } %>
+
+            <% if (data.objectType === 'game') { %>
+            <div class="objectcard-object-follow-container">
+                <div class="objectcard-object-follow" data-legacy-id="<%= data.objectLegacyId %>">
+                    <span class="follow-text">Follow</span><span class="plus">+</span>
+                </div>
+            </div>
+            <% } %>
+            <div class="objectcard-object-hover-platforms">
+                <ul class="objectcard-object-hover-platforms-list">
+                    <% _.each( data.objectMediaTypes, function( mediaType ){ %>
+                    <li><a href="<%= mediaType.url %>"><%= mediaType.media %></a></li>
+                    <% }); %>
+                </ul>
+            </div>
+        </div>
+        <div class="objectcard-object-details <%= data.objectType !== 'game' ? 'entertainment' : '' %>">
+            <div class="objectcard-object-hover-name">
+                <%= data.objectName %>
+            </div>
+            <div class="objectcard-object-hover-release">
+                <%= data.objectReleaseText + ' ' + data.objectDate %>
+            </div>
+            <div class="objectcard-object-description">
+                <span class="objectcard-object-provider"><%= data.objectProvider %> &#8594;</span><%= data.objectDescription %>
+            </div>
+            <div class="objectcard-read-more"><a href="<%= data.objectUrl %>">Read More...</a></div>
+            <% if (data.objectRating !== false) { %>
+            <div class="objectcard-rating">
+                <img src="<%= data.objectRating.ratingIcon %>" />
+                <span class="objectcard-rating-text<% if (!data.objectRating.ratingSubText || (data.objectRating.ratingSubText === '')) { %> no-sub-text<% } %>">
+                <%= data.objectRating.ratingText %>
+                </span>
+                <% if (data.objectRating.ratingSubText && (data.objectRating.ratingSubText !== '')) { %>
+                <span class="objectcard-rating-sub-text">
+                <%= data.objectRating.ratingSubText %>
+                </span>
+                <% } %>
+            </div>
+            <% } %>
+            <div class="objectcard-commerce-wrapper">
+                <a class="zdcse objectcard-display-button" data-affiliate-ign="<%= data.objectLegacyId %>" style="display:none"><span class="cta"><%= data.objectCommerceText %></span></a>
+                <a class="zdcse" data-affiliate-ign="<%= data.objectLegacyId %>" style="display:none">
+                    <span class="objectcard-display-price">%displayPrice%</span>
+                </a>
+            </div>
+        </div>
+        <% if (data.objectReviewScore !== 0) { %>
+        <div class="objectcard-review-score">
+            <span class="objectcard-review-score-hex"></span>
+            <span class="review-score"><%= data.objectReviewScore %></div>
+        </div>
+        <% } %>
+    </div>
+    <% } %>
+  </script>
+  <div class="widget-objectcard" data-mobile="0">
+   <div class="objectcard-object-wrapper">
+    <div class="objectcard-object-details">
+     <div class="in-this-article icon-pointy-before">
+      IN THIS ARTICLE
+     </div>
+     <a class="hover-link" data-legacy-id="128181" data-locale="US" href="/games/nhl-13">
+      <span class="objectcard-object-name">
+       NHL 13
+      </span>
+      <span class="objectcard-object-release">
+       Released Sep. 11th, 2012
+      </span>
+     </a>
+    </div>
+    <div class="objectcard-object-platforms">
+     <div class="objectcard-object-platforms-first">
+      <a href="/games/nhl-13">
+       Xbox 360
+      </a>
+      <a href="/games/nhl-13">
+       PS3
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="chess article" id="knight">
+ </div>
+</div>
+<div class="article_pager">
+</div>
+<figure class="breakdown-box has-breakdown">
+ <div class="content-container">
+  <div class="blurb-container">
+   <div class="score-text">
+    Great
+   </div>
+   <div class="blurb" itemprop="itemReviewed" itemscope="" itemtype="http://schema.org/Product">
+    <meta content="NHL 13" itemprop="name"/>
+    <svg class="blurb-arrow" preserveaspectratio="xMidYMid" viewbox="0 0 100 100">
+     <path d="M87.391,50L59.009,21.538c-0.428-0.428-0.8-0.784-1.103-1.066c-2.042-1.857-4.643-2.347-6.822-0.364
+                            c-2.349,2.138-2.16,5.052-0.094,7.277c0.281,0.309,0.634,0.678,1.066,1.106l16.766,16.766H19.203c-1.527,0-3.214-0.095-4.558,0.752
+                            c-1.386,0.874-2.036,2.392-2.036,3.991c0,1.598,0.648,3.124,2.036,3.996c1.346,0.845,3.029,0.751,4.558,0.751h49.613L52.05,71.513
+                            c-0.431,0.428-0.784,0.8-1.066,1.106c-1.954,2.126-2.299,4.901-0.141,7.059c2.188,2.188,4.891,1.806,7.056-0.141
+                            c0.303-0.281,0.678-0.638,1.103-1.066L87.391,50z">
+     </path>
+    </svg>
+   </div>
+   <div class="byline">
+    <span class="publish-date">
+     11 Sep 2012
+    </span>
+   </div>
+  </div>
+ </div>
+ <div class="score-wrapper">
+  <span class="score-hex-bg hexagon-wrapper">
+   <span class="hexagon">
+   </span>
+  </span>
+  <span class="score-hex hexagon-wrapper">
+   <span class="hexagon">
+   </span>
+  </span>
+  <span class="score" itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+   <span itemprop="ratingValue">
+    8.5
+   </span>
+   <meta content="10" itemprop="bestRating"/>
+   <meta content="0" itemprop="worstRating"/>
+  </span>
+  <a class="review-standards" href="/wikis/ign/Reviews" itemprop="publishingPrinciples">
+   i
+   <span class="tool-tip">
+    Read our review standards
+   </span>
+  </a>
+ </div>
+ <div class="breakdown">
+  <li>
+   <span class="breakdown-score">
+    8.5
+   </span>
+   <span class="breakdown-info">
+    <span class="breakdown-name">
+     Presentation
+    </span>
+    <span class="breakdown-comment">
+     The menus can be convoluted, but then again, there’s a whole lot to do in NHL 13. When playing, it makes you feel like you’re watching the real thing.
+    </span>
+   </span>
+  </li>
+  <li>
+   <span class="breakdown-score">
+    8
+   </span>
+   <span class="breakdown-info">
+    <span class="breakdown-name">
+     Graphics
+    </span>
+    <span class="breakdown-comment">
+     Animations are occasionally awkward, but the game itself looks exceptional. The ice pops, and the players look awesome skating around in any given team’s arena.
+    </span>
+   </span>
+  </li>
+  <li>
+   <span class="breakdown-score">
+    8.5
+   </span>
+   <span class="breakdown-info">
+    <span class="breakdown-name">
+     Sound
+    </span>
+    <span class="breakdown-comment">
+     Great commentary from Clemente and Thorne is heightened by the acute attention paid to the noises of an NHL arena and the sounds familiar to all hockey fans: the skate blade on ice, a puck hitting off the glass and more.
+    </span>
+   </span>
+  </li>
+  <li>
+   <span class="breakdown-score">
+    8.5
+   </span>
+   <span class="breakdown-info">
+    <span class="breakdown-name">
+     Gameplay
+    </span>
+    <span class="breakdown-comment">
+     Emphasis on more realistic skating has changed the way the game feels, but you’ll adapt. Controlling most of the action with the analog sticks continues to make a lot of sense.
+    </span>
+   </span>
+  </li>
+  <li>
+   <span class="breakdown-score">
+    9.5
+   </span>
+   <span class="breakdown-info">
+    <span class="breakdown-name">
+     Lasting Appeal
+    </span>
+    <span class="breakdown-comment">
+     NHL 13 will keep hockey fans busy even if there is an NHL season this year. If there isn’t, expect to get lost.
+    </span>
+   </span>
+  </li>
+ </div>
+</figure>
+<div class="zd-commerce-review-box clear-fix" data-objectid="128181">
+ <div class="zd-commerce-review-box-raw">
+  <script async="" defer="" src="https://static.ziffprod.com/buyitnow/2.0.0/buyitnow.min.js?ignId=128181&amp;count=3¤cy=USD&amp;lowPrice=true&amp;freeShipping=true&amp;logo=none&amp;referrer=www.ign.com&amp;onload=IGN.ReviewBoxCommerce.init" type="text/javascript">
+  </script>
+ </div>
+ <div class="zd-commerce-review-box-proper">
+  <div class="zd-commerce-review-box-title">
+   Buying Guide
+   <span>
+    Powered by IGN Deals
+   </span>
+  </div>
+  <div class="zd-commerce-review-box-deals">
+   <div class="meta">
+    <img alt="NHL 13" class="product-image" src="https://pcmedia.ign.com/pc/image/object/128/128181/nhl13ps3pftfront1boxart_160w.jpg"/>
+   </div>
+  </div>
+ </div>
+</div>
+<div class="chess" id="pawn12">
+</div>
+<section class="article-tail clear-fix">
+ <aside class="ign-grid-right-rail">
+ </aside>
+ <aside>
+  <div class="atw-container zergnet-container">
+   <div id="zergnet-widget-41292">
+   </div>
+   <script language="javascript" type="text/javascript">
+    window.addEventListener('load', function () {
+                var zergnet = document.createElement('script');
+                zergnet.type = 'text/javascript'; zergnet.async = true;
+                zergnet.src = 'https://www.zergnet.com/zerg.js?id=41292';
+                var znscr = document.getElementsByTagName('script')[0];
+                znscr.parentNode.insertBefore(zergnet, znscr);
+            });
+   </script>
+   <div id="zergnet-widget-41294">
+   </div>
+   <script language="javascript" type="text/javascript">
+    window.addEventListener('load', function () {
+                var zergnet = document.createElement('script');
+                zergnet.type = 'text/javascript'; zergnet.async = true;
+                zergnet.src = 'https://www.zergnet.com/zerg.js?id=41294';
+                var znscr = document.getElementsByTagName('script')[0];
+                znscr.parentNode.insertBefore(zergnet, znscr);
+            });
+   </script>
+  </div>
+ </aside>
+ <aside class="ign-grid-right-rail">
+  <div id="ign-recommends">
+   <div class="title">
+    IGN Recommends
+   </div>
+   <div class="items">
+    <a class="item" href="/articles/2019/04/10/hellboy-reboot-review">
+     <div class="image-container">
+      <img alt="Hellboy Review" class="image" data-original="https://assets1.ignimgs.com/2019/04/09/hellboy-blogroll-1554774434613_180w.jpg" src=""/>
+     </div>
+     <div class="headline">
+      Hellboy Review
+     </div>
+    </a>
+    <a class="item" href="/articles/2019/04/11/mark-hamill-pitched-a-different-ending-for-the-force-awakens-to-jj-abrams">
+     <div class="image-container">
+      <img alt="Mark Hamill Pitched a Different Ending for The Force Awakens to JJ Abrams" class="image" data-original="https://assets1.ignimgs.com/2018/03/26/lukeleia-1522077524156_180w.jpg" src=""/>
+     </div>
+     <div class="headline">
+      Mark Hamill Pitched a Different Ending for The Force Awakens to JJ Abrams
+     </div>
+    </a>
+    <a class="item" href="/articles/2019/04/11/first-look-at-new-charlies-angels-team-revealed">
+     <div class="image-container">
+      <img alt="First Look at New Charlie's Angels Team Revealed" class="image" data-original="https://assets2.ignimgs.com/2015/12/16/cajpg-0d6c9e_180w.jpg" src=""/>
+     </div>
+     <div class="headline">
+      First Look at New Charlie's Angels Team Revealed
+     </div>
+    </a>
+    <a class="item" href="/articles/2019/04/11/one-punch-man-season-2-episode-1-return-of-the-hero-review">
+     <div class="image-container">
+      <img alt="One-Punch Man's Season 2 Premiere Was Worth the Wait" class="image" data-original="https://assets1.ignimgs.com/2019/04/10/onepunchseason2-blogroll-1554933995132_180w.jpg" src=""/>
+     </div>
+     <div class="headline">
+      One-Punch Man's Season 2 Premiere Was Worth the Wait
+     </div>
+    </a>
+    <a class="item" href="/articles/2019/04/11/game-of-thrones-every-valyrian-steel-weapon-and-who-owns-them">
+     <div class="image-container">
+      <img alt="Game of Thrones: Every Valyrian Steel Weapon" class="image" data-original="https://assets1.ignimgs.com/2017/08/10/valyriansteel-1280-1502386854712_180w.jpg" src=""/>
+     </div>
+     <div class="headline">
+      Game of Thrones: Every Valyrian Steel Weapon
+     </div>
+    </a>
+    <a class="item" href="/articles/2019/04/11/shazam-only-wants-us-to-remember-the-best-of-the-dceu-and-thats-just-fine">
+     <div class="image-container">
+      <img alt="Shazam! Only Wants Us to Remember the Best of the DCEU" class="image" data-original="https://assets1.ignimgs.com/2019/01/22/shazammanofsteel-1280-1548200254014_180w.jpg" src=""/>
+     </div>
+     <div class="headline">
+      Shazam! Only Wants Us to Remember the Best of the DCEU
+     </div>
+    </a>
+    <a class="item" href="/articles/2019/04/11/borderlands-3-troy-baker-not-returning-as-tales-from-the-borderlands-rhys">
+     <div class="image-container">
+      <img alt="Update: Gearbox CEO Says Troy Baker Turned Down Borderlands 3 Role" class="image" data-original="https://assets2.ignimgs.com/2014/11/25/borderlands1125141280jpg-da4390_180w.jpg" src=""/>
+     </div>
+     <div class="headline">
+      Update: Gearbox CEO Says Troy Baker Turned Down Borderlands 3 Role
+     </div>
+    </a>
+    <a class="item" href="/articles/2019/04/11/super-smash-bros-donkey-kong-tropical-freeze-and-tons-more-great-switch-game-deals">
+     <div class="image-container">
+      <img alt="Diablo 3 Eternal Collection for Switch Is $40 Right Now" class="image" data-original="https://assets1.ignimgs.com/2018/08/17/diablo3eternalthumb-1534546604491_180w.jpg" src=""/>
+     </div>
+     <div class="headline">
+      Diablo 3 Eternal Collection for Switch Is $40 Right Now
+     </div>
+    </a>
+   </div>
+   <div class="chess" id="pawn44">
+   </div>
+  </div>
+  <div class="chess" id="pawn29">
+  </div>
+ </aside>
+ <div class="article-comments wrap" id="article_comments">
+  <script type="text/javascript">
+   var script = document.createElement('script');
+    script.onload = function() {
+        if (typeof(IGN) !== "undefined" && typeof(IGN.Coraltalk) !== "undefined" && typeof(IGN.Coraltalk.Comment) !== "undefined") {
+            window.dispatchEvent(new Event('coralTalkReady'));}
+        }
+    script.src = 'https://apps.ign.com/comments/release/embed.js';
+    script.async = false;
+    document.head.appendChild(script);
+  </script>
+  <a name="comments">
+  </a>
+  <div data-settings='{"talkUrl":"https:\/\/comments.ign.com\/","url":"http:\/\/www.ign.com\/articles\/2012\/09\/11\/nhl-13-review","id":"504e2847402d2f9d257de5fd","title":"NHL 13 Review","layout":"desktop","theme":"standard","socialDomain":"https:\/\/s.ign.com"}' id="ign-coraltalk-comment">
+  </div>
+  <!-- <a class='notifications-trigger' href='/notifications'>Notifications<span class='notifications-counter'>&nbsp;</span></a> -->
+ </div>
+</section>
+<div class="chess" id="rook">
+</div>
+<footer id="ign-footer">
+ <div class="clear-fix" id="footer-container">
+  <a class="copyright-container" href="http://www.ziffdavis.com/">
+   <br/>
+   © 1996-2019  Ziff Davis, LLC
+  </a>
+  <div class="links-container">
+   <div class="ign-newsletter-signup-container-footer" data-locale="" onclick="IGN.fetchModal();">
+    <form>
+     <input aria-labelledby="ign-newsletter-signup-btn-footer" id="ign-newsletter-signup-footer-email-footer" name="email" onfocus="$(this).blur();" placeholder="E-mail Address" type="email" value=""/>
+    </form>
+    <span id="ign-newsletter-signup-btn-footer">
+     Join the IGN Newsletter
+    </span>
+   </div>
+   <nav class="links">
+    <a alt="" class="footer-link" href="https://corp.ign.com/contact">
+     Contact Us
+    </a>
+    <a alt="" class="footer-link" href="https://www.j2global.com/careers/job-search">
+     Careers
+    </a>
+    <a alt="" class="footer-link" href="https://studios.ign.com">
+     Advertise
+    </a>
+    <a alt="" class="footer-link" href="https://corp.ign.com/accessibility">
+     Accessibility
+    </a>
+    <a alt="" class="footer-link" href="https://corp.ign.com/frequently-asked-questions">
+     Support
+    </a>
+    <a alt="" class="footer-link" href="https://corp.ign.com/user-agreement">
+     Terms of Use
+    </a>
+    <a class="SiteFooterNavItem footer-link js-evidon-overlay" href="#" rel="nofollow" target="_blank">
+     AdChoices
+     <img alt="" src="//cdn.ziffstatic.com/adchoices/adchoices.png"/>
+    </a>
+   </nav>
+  </div>
+ </div>
+</footer>
+<section class="ign-post-grid">
+</section>
+<div class="privacy-content">
+ <div id="cookie-consent">
+  <div class="privacy-banner" id="consent_blackbar">
+  </div>
+ </div>
+ <div class="privacy-banner hidden" id="cookie-policy">
+  <div class="message">
+   <p class="legal-text">
+    We encourage you to read our updated
+    <strong>
+     <a href="https://corp.ign.com/privacy" id="js-privacy-policy-link">
+      PRIVACY POLICY
+     </a>
+    </strong>
+    and
+    <strong>
+     <a href="https://www.ziffdavis.com/cookie-policy" target="_blank">
+      COOKIE POLICY
+     </a>
+    </strong>
+    .
+   </p>
+  </div>
+  <a class="close close-x" href="#">
+   ×
+  </a>
+ </div>
+</div>
+<script async="" defer="" src="https://static.ziffprod.com/cse/js/5.0.0/zdcse.min.js?referrer=www.ign.com&amp;bf¤cy=USD&amp;onload=IGN.Commerce.init" type="text/javascript">
+</script>
+<script>
+ igndrones.async.push(function() {igndrones.fireBottom();});
+</script>
+<!-- View Generation: 264ms - 54.50MB - 87 - 2019-04-11 12:19:16 PDT -->
+
