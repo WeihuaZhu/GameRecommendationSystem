@@ -14,7 +14,8 @@ class IGNItem(scrapy.Item):
     editors_choice = scrapy.Field()
     url = scrapy.Field()
 
-BASE_AJAX_REQUEST = "http://www.ign.com/games/reviews-ajax?startIndex="
+# BASE_AJAX_REQUEST = "http://www.ign.com/games/reviews-ajax?startIndex="
+BASE_REQUEST = "http://www.ign.com/games?startIndex="
 N_GAMES = 18601 # empirical data :)
 
 def save_body(bd,fn):
