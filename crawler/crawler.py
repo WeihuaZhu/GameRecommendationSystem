@@ -14,6 +14,7 @@ import requests
 import random
 import csv
 from bs4 import BeautifulSoup
+import os
  
  
 USER_AGENT = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'}
@@ -108,7 +109,7 @@ if __name__ == '__main__':
     csvFile = open('ign.csv', 'r')
     reader = csv.reader(csvFile)
 
-    SIZE = 100
+    # SIZE = 10
     for item in reader:
         # print(item)
         gameurl = item[3]
@@ -117,13 +118,16 @@ if __name__ == '__main__':
         if gameurl not in roots:
             data_url = {'title':item[2], 'url':item[3]}
             roots.append(data_url)
-        if len(roots) == SIZE:
-            break
+        # if len(roots) == SIZE:
+        #     break
 
 
-    print(roots)
+    # print(roots)
 
     for i,root in enumerate(roots):
+        if i <= 8033:
+            continue
+
         print('Task:', i ,' Scraping game ', root['title'])
         try:
             result = scrape_root(root['url'], i, root['title'])
@@ -132,7 +136,6 @@ if __name__ == '__main__':
         finally:
             sleep(random.uniform(1.2, 3))
 
-        f = open('result.txt', 'a')
+        f = open('review_all_2.txt', 'a')
         print(result, file = f)
         f.close()
-
