@@ -101,4 +101,4 @@ def read_tfidf_matrix(filename):
 
 filename = '../tfidf/tfidf_matrix_test.txt'
 matrixr = read_tfidf_matrix(filename)
-print(matrixr)
+# print(matrixr)

@@ -32,14 +32,53 @@ stop_words = text.ENGLISH_STOP_WORDS.union(gameGeneral).union(platforms).union(n
 tfidf_vec = text.TfidfVectorizer(stop_words=stop_words, min_df=0.035)
 tfidf_matrix = tfidf_vec.fit_transform(reviews).toarray()
 
-print(tfidf_matrix.shape)
+# print(tfidf_matrix.shape)
 
 #print 10 most important words for each review according to tfidf, first 10 for testing
-for i in range(10):
-    a = list(tfidf_matrix[i])
-    idx = list(map(a.index, heapq.nlargest(80, a)))
-    f = open('tfidf_matrix_test.txt', 'a')
-    for j in idx:
-        print(tfidf_vec.get_feature_names()[j], end = '  ', file = f)
-    print('\n', file = f)
-    f.close()
+# for i in range(10):
+#     a = list(tfidf_matrix[i])
+#     idx = list(map(a.index, heapq.nlargest(80, a)))
+#     f = open('tfidf_matrix_test.txt', 'a')
+#     for j in idx:
+#         print(tfidf_vec.get_feature_names()[j], end = '  ', file = f)
+#     print('\n', file = f)
+#     f.close()
+#     
+with open('tfdif_all_features.txt', 'w') as output_file0:
+    a = list(tfidf_matrix[0])
+    print(len(a))
+    line = []
+    for j in range(len(a)):
+        line.append(tfidf_vec.get_feature_names()[j])
+    print(line, file = output_file0)
+
+
+with open('tfidf_matrix_boolean.txt', 'w') as output_file:
+    for i in range(100):
+        a = list(tfidf_matrix[i])
+        idx = list(map(a.index, heapq.nlargest(200, a)))
+        line = []
+        for j in range(len(a)):
+            line.append(0)
+        sum = 0
+        for j in idx:
+            line[j] = 1
+            # print(tfidf_vec.get_feature_names()[j])
+            # print(a[j])
+        print(line, file = output_file)
+
+with open('tfidf_matrix_float.txt', 'w') as output_file2:
+    for i in range(100):
+        a = list(tfidf_matrix[i])
+        idx = list(map(a.index, heapq.nlargest(200, a)))
+        line = []
+        for j in range(len(a)):
+            line.append(0)
+        sum = 0
+        for j in idx:
+            line[j] = a[j]
+            sum += a[j]
+            # print(tfidf_vec.get_feature_names()[j])
+            # print(a[j])
+        print(sum)
+        print(line, file = output_file2)
