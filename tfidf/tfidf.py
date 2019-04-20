@@ -38,11 +38,11 @@ tfidf_matrix = tfidf_vec.fit_transform(reviews).toarray()
 # for i in range(10):
 #     a = list(tfidf_matrix[i])
 #     idx = list(map(a.index, heapq.nlargest(80, a)))
-#     f = open('tfidf_matrix_test.txt', 'a')
+#     output_file = open('tfidf_matrix_test.txt', 'a')
 #     for j in idx:
-#         print(tfidf_vec.get_feature_names()[j], end = '  ', file = f)
-#     print('\n', file = f)
-#     f.close()
+#         print(tfidf_vec.get_feature_names()[j], end = '  ', file = output_file)
+#     print('\n', file = output_file)
+#     output_file.close()
 #     
 with open('tfdif_all_features.txt', 'w') as output_file0:
     a = list(tfidf_matrix[0])
@@ -65,7 +65,10 @@ with open('tfidf_matrix_boolean.txt', 'w') as output_file:
             line[j] = 1
             # print(tfidf_vec.get_feature_names()[j])
             # print(a[j])
-        print(line, file = output_file)
+        for j in range(len(a)):
+            print(line[j], end = '\t', file = output_file)
+        print('\n', file = output_file)
+# output_file.close()
 
 with open('tfidf_matrix_float.txt', 'w') as output_file2:
     for i in range(100):
@@ -80,5 +83,7 @@ with open('tfidf_matrix_float.txt', 'w') as output_file2:
             sum += a[j]
             # print(tfidf_vec.get_feature_names()[j])
             # print(a[j])
-        print(sum)
-        print(line, file = output_file2)
+        print(sum)        
+        for j in range(len(a)):
+            print(line[j], end = '\t', file = output_file2)
+        print('\n', file = output_file2)

@@ -94,11 +94,21 @@ def read_tfidf_matrix(filename):
 	matrix = []
 	for line in f:
 		if len(line) != 1:
-			matrix.append(line.split())
+			features = []
 			print(line)
+			for item in line.strip().split('\t'):
+				features.append(float(item))
+			print(features)
+			matrix.append(features)
 	# print(matrix)
+	
 	return matrix
 
-filename = '../tfidf/tfidf_matrix_test.txt'
+filename = '../tfidf/tfidf_matrix_float.txt'
 matrixr = read_tfidf_matrix(filename)
+print(matrixr[0])
+
+dataSet = mat(matrixr)
+k = 4
+# centroids, clusterAssment = kmeans(dataSet, k)
 # print(matrixr)
