@@ -98,23 +98,24 @@ with open('tfidf_matrix_float.txt', 'w') as output_file2:
             sum += a[j]
             # print(tfidf_vec.get_feature_names()[j])
             # print(a[j])
-        print(sum)        
+        # print(sum)        
         for j in range(len(a)):
             print(line[j], end = '\t', file = output_file2)
         print('\n', file = output_file2)
 output_file2.close()
 # In[3]
-with open('tfidf_dict_form.txt', 'w') as output_file3:
-    for i in range(len(tfidf_matrix)):
-        a = list(tfidf_matrix[i])
-        idx = []
-        for j in range(200):
-            idx.append(a.index(max(a)))
-            a[a.index(max(a))] = - np.Inf
-        dictForGame = {}
-        a = list(tfidf_matrix[i])
-        for j in idx:
-            dictForGame[tfidf_vec.get_feature_names()[j]] = a[j]
-        data = mydict(dictForGame)
-        print(data, file = output_file3)
-output_file3.close()
+# # slow for the dictionary below, comment unless needed
+# with open('tfidf_dict_form.txt', 'w') as output_file3:
+#     for i in range(len(tfidf_matrix)):
+#         a = list(tfidf_matrix[i])
+#         idx = []
+#         for j in range(200):
+#             idx.append(a.index(max(a)))
+#             a[a.index(max(a))] = - np.Inf
+#         dictForGame = {}
+#         a = list(tfidf_matrix[i])
+#         for j in idx:
+#             dictForGame[tfidf_vec.get_feature_names()[j]] = a[j]
+#         data = mydict(dictForGame)
+#         print(data, file = output_file3)
+# output_file3.close()
