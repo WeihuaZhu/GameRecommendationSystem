@@ -7,7 +7,7 @@ import os
 fileName = 'review_all.txt'
 # x = open(fileName).read()
 # print(len(x))
-
+prev_index = -1
 with open(fileName) as f:
     reviews = []
     while True:
@@ -15,7 +15,13 @@ with open(fileName) as f:
         if not line:
             break
         rev_temp = json.loads(line)
+        curr_index = rev_temp["index"]
+        # remove duplicates
+        if curr_index == prev_index:
+            continue
+        rev_temp = json.loads(line)
         reviews.append(rev_temp["review"])
+        prev_index = curr_index
 
 # print(review1)
 platforms = {'xbox','ps','psp','ps3','ps2','gb','gba','360','n64'}
