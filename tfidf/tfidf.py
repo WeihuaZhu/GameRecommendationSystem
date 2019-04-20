@@ -12,6 +12,7 @@ fileName = 'review_all.txt'
 # x = open(fileName).read()
 # print(len(x))
 prev_index = -1
+game_indexes = []
 with open(fileName) as f:
     reviews = []
     while True:
@@ -25,7 +26,10 @@ with open(fileName) as f:
             continue
         rev_temp = json.loads(line)
         reviews.append(rev_temp["review"])
+        game_indexes.append(curr_index)
         prev_index = curr_index
+
+# print(game_indexes)
 
 # print(review1)
 platforms = {'xbox','ps','psp','ps3','ps2','gb','gba','360','n64','playstation','playstation2','playstation3','playstation4'}
@@ -41,15 +45,16 @@ tfidf_matrix = tfidf_vec.fit_transform(reviews).toarray()
 
 #print 10 most important words for each review according to tfidf, first 10 for testing
 # In[1]
-for i in range(10, 20):
-     a = list(tfidf_matrix[i])
-     idx = []
-     for j in range(80):
-         idx.append(a.index(max(a)))
-         a[a.index(max(a))] = - np.Inf
-     for j in idx:
-         print(tfidf_vec.get_feature_names()[j], end = '  ')
-     print('\n')
+# for i in range(10, 20):
+#      a = list(tfidf_matrix[i])
+#      idx = []
+#      for j in range(80):
+#          idx.append(a.index(max(a)))
+#          a[a.index(max(a))] = - np.Inf
+#      for j in idx:
+#          print(tfidf_vec.get_feature_names()[j], end = '  ')
+#      print('\n')
+
 # In[2]
 with open('tfidf_all_features.txt', 'w') as output_file0:
     a = list(tfidf_matrix[0])
