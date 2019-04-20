@@ -1,3 +1,11 @@
+# web scraping script
+# rewrite in Python 3
+# Author: Andy Yao
+# Version 1.4
+# Date 04/18/2019
+# 
+# encoding=utf8
+
 import csv
 
 index = 0
