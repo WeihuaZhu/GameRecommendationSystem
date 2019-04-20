@@ -39,7 +39,7 @@ def kmeans(dataSet, k):
 	while clusterChanged:
 		clusterChanged = False
 		## for each sample
-		for i in xrange(numSamples):
+		for i in range(numSamples):
 			minDist  = 100000.0
 			minIndex = 0
 			## for each centroid
@@ -95,10 +95,10 @@ def read_tfidf_matrix(filename):
 	for line in f:
 		if len(line) != 1:
 			features = []
-			print(line)
+			# print(line)
 			for item in line.strip().split('\t'):
 				features.append(float(item))
-			print(features)
+			# print(features)
 			matrix.append(features)
 	# print(matrix)
 	
@@ -110,5 +110,11 @@ print(matrixr[0])
 
 dataSet = mat(matrixr)
 k = 4
-# centroids, clusterAssment = kmeans(dataSet, k)
-# print(matrixr)
+centroids, clusterAssment = kmeans(dataSet, k)
+print(centroids)
+
+with open('kmeans_centroids.txt', 'w') as output_file:
+	for i in range(len(centroids)):
+		for j in range(len(centroids[i])):
+			print(centroids[i][j], end = '\t', file = output_file)
+		print('\n', file = output_file)
