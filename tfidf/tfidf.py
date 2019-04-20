@@ -28,7 +28,7 @@ with open(fileName) as f:
         prev_index = curr_index
 
 # print(review1)
-platforms = {'xbox','ps','psp','ps3','ps2','gb','gba','360','n64'}
+platforms = {'xbox','ps','psp','ps3','ps2','gb','gba','360','n64','playstation','playstation2','playstation3','playstation4'}
 gameGeneral = {'game','ign','play','playing','player','version','gaming','games','app','player','players','download','win','lose','won','lost'}
 noMeaningWords = {'thank','thanks','didn','don','doesn','didn','nearly','hasn','haven','isn', 'couldn', '__', 'let', 'yes'}
 gameUnrelatedWords = {'need', 'seemingly', 'does', 'make', 'despite', 'away', 'total', 'allows', 'come', 'thing', 'certainly', 'wants', 'got', 'maybe', 'likely', 'looks'}
@@ -51,14 +51,14 @@ for i in range(10, 20):
          print(tfidf_vec.get_feature_names()[j], end = '  ')
      print('\n')
 # In[2]
-with open('tfdif_all_features.txt', 'w') as output_file0:
+with open('tfidf_all_features.txt', 'w') as output_file0:
     a = list(tfidf_matrix[0])
     print(len(a))
     line = []
     for j in range(len(a)):
         line.append(tfidf_vec.get_feature_names()[j])
     print(line, file = output_file0)
-
+output_file0.close()
 
 with open('tfidf_matrix_boolean.txt', 'w') as output_file:
     for i in range(len(tfidf_matrix)):
@@ -76,7 +76,7 @@ with open('tfidf_matrix_boolean.txt', 'w') as output_file:
         for j in range(len(a)):
             print(line[j], end = '\t', file = output_file)
         print('\n', file = output_file)
-# output_file.close()
+output_file.close()
 
 with open('tfidf_matrix_float.txt', 'w') as output_file2:
     for i in range(len(tfidf_matrix)):
@@ -97,6 +97,7 @@ with open('tfidf_matrix_float.txt', 'w') as output_file2:
         for j in range(len(a)):
             print(line[j], end = '\t', file = output_file2)
         print('\n', file = output_file2)
+output_file2.close()
 # In[3]
 with open('tfidf_dict_form.txt', 'w') as output_file3:
     for i in range(len(tfidf_matrix)):
@@ -111,3 +112,4 @@ with open('tfidf_dict_form.txt', 'w') as output_file3:
             dictForGame[tfidf_vec.get_feature_names()[j]] = a[j]
         data = mydict(dictForGame)
         print(data, file = output_file3)
+output_file3.close()
