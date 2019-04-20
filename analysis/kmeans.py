@@ -9,6 +9,7 @@
 from numpy import *
 import time
 import matplotlib.pyplot as plt
+import os
  
  
 # calculate Euclidean distance
@@ -59,19 +60,19 @@ def kmeans(dataSet, k):
 			pointsInCluster = dataSet[nonzero(clusterAssment[:, 0].A == j)[0]]
 			centroids[j, :] = mean(pointsInCluster, axis = 0)
  
-	print 'Congratulations, cluster complete!'
+	print('Congratulations, cluster complete!')
 	return centroids, clusterAssment
  
 # show your cluster only available with 2-D data
 def showCluster(dataSet, k, centroids, clusterAssment):
 	numSamples, dim = dataSet.shape
 	if dim != 2:
-		print "Sorry! I can not draw because the dimension of your data is not 2!"
+		print("Sorry! I can not draw because the dimension of your data is not 2!")
 		return 1
  
 	mark = ['or', 'ob', 'og', 'ok', '^r', '+r', 'sr', 'dr', '<r', 'pr']
 	if k > len(mark):
-		print "Sorry! Your k is too large! please contact Zouxy"
+		print("Sorry! Your k is too large! please contact Zouxy")
 		return 1
  
 	# draw all samples
@@ -85,3 +86,19 @@ def showCluster(dataSet, k, centroids, clusterAssment):
 		plt.plot(centroids[i, 0], centroids[i, 1], mark[i], markersize = 12)
  
 	plt.show()
+
+
+def read_tfidf_matrix(filename):
+	# f = open ( '../tfidf/tfidf_matrix_test.txt' , 'r')
+	f = open (filename , 'r')
+	matrix = []
+	for line in f:
+		if len(line) != 1:
+			matrix.append(line.split())
+			print(line)
+	# print(matrix)
+	return matrix
+
+filename = '../tfidf/tfidf_matrix_test.txt'
+matrixr = read_tfidf_matrix(filename)
+print(matrixr)
