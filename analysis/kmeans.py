@@ -26,7 +26,7 @@ def initCentroids(dataSet, k):
 	return centroids
  
 # k-means cluster
-def kmeans(dataSet, k):
+def kmeans(dataSet, k, MAX_ITR = 30):
 	numSamples = dataSet.shape[0]
 	# first column stores which cluster this sample belongs to,
 	# second column stores the error between this sample and its centroid
@@ -35,8 +35,14 @@ def kmeans(dataSet, k):
  
 	## step 1: init centroids
 	centroids = initCentroids(dataSet, k)
+
+	itr = 0
  
 	while clusterChanged:
+		itr += 1
+		print('iteration:')
+		print(itr)
+		count = 0
 		clusterChanged = False
 		## for each sample
 		for i in range(numSamples):
@@ -52,6 +58,7 @@ def kmeans(dataSet, k):
 			
 			## step 3: update its cluster
 			if clusterAssment[i, 0] != minIndex:
+				count += 1
 				clusterChanged = True
 				clusterAssment[i, :] = minIndex, minDist**2
  
@@ -59,6 +66,10 @@ def kmeans(dataSet, k):
 		for j in range(k):
 			pointsInCluster = dataSet[nonzero(clusterAssment[:, 0].A == j)[0]]
 			centroids[j, :] = mean(pointsInCluster, axis = 0)
+
+		print('No of changes:' + str(count))
+		if (count <= numSamples * 0.005 or itr >= MAX_ITR):
+			break
  
 	print('Congratulations, cluster complete!')
 	return centroids, clusterAssment
@@ -106,15 +117,23 @@ def read_tfidf_matrix(filename):
 
 filename = '../tfidf/tfidf_matrix_float.txt'
 matrixr = read_tfidf_matrix(filename)
-print(matrixr[0])
+# print(matrixr[0])
 
 dataSet = mat(matrixr)
-k = 4
+k = 20
 centroids, clusterAssment = kmeans(dataSet, k)
-print(centroids)
+# print(centroids)
+print(clusterAssment)
 
 with open('kmeans_centroids.txt', 'w') as output_file:
 	for i in range(len(centroids)):
 		for j in range(len(centroids[i])):
 			print(centroids[i][j], end = '\t', file = output_file)
 		print('\n', file = output_file)
+
+
+
+with open('kmeans_clusters.txt', 'w') as output_file2:
+	for i in range(len(clusterAssment)):
+		print(int(clusterAssment[i, 0]), end = '\t', file = output_file2)
+		print('\n', file = output_file2)
