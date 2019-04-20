@@ -1,9 +1,13 @@
+# In[0]
 import numpy as np
 import json
 from sklearn.feature_extraction import text
 import heapq
 import os
-
+class mydict(dict):
+        def __str__(self):
+            return json.dumps(self)
+# In[1]        
 fileName = 'review_all.txt'
 # x = open(fileName).read()
 # print(len(x))
@@ -93,3 +97,17 @@ with open('tfidf_matrix_float.txt', 'w') as output_file2:
         for j in range(len(a)):
             print(line[j], end = '\t', file = output_file2)
         print('\n', file = output_file2)
+# In[3]
+with open('tfidf_dict_form.txt', 'w') as output_file3:
+    for i in range(len(tfidf_matrix)):
+        a = list(tfidf_matrix[i])
+        idx = []
+        for j in range(200):
+            idx.append(a.index(max(a)))
+            a[a.index(max(a))] = - np.Inf
+        dictForGame = {}
+        a = list(tfidf_matrix[i])
+        for j in idx:
+            dictForGame[tfidf_vec.get_feature_names()[j]] = a[j]
+        data = mydict(dictForGame)
+        print(data, file = output_file3)
