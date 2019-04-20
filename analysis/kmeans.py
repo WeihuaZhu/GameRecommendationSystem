@@ -135,5 +135,4 @@ with open('kmeans_centroids.txt', 'w') as output_file:
 
 with open('kmeans_clusters.txt', 'w') as output_file2:
 	for i in range(len(clusterAssment)):
-		print(int(clusterAssment[i, 0]), end = '\t', file = output_file2)
-		print('\n', file = output_file2)
+		print(int(clusterAssment[i, 0]), end = '\n', file = output_file2)
