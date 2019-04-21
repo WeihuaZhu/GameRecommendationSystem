@@ -81,7 +81,6 @@ with open('tfidf_matrix_boolean.txt', 'w') as output_file:
         for j in range(len(a)):
             print(line[j], end = '\t', file = output_file)
         print('\n', file = output_file)
-output_file.close()
 
 with open('tfidf_matrix_float.txt', 'w') as output_file2:
     for i in range(len(tfidf_matrix)):
@@ -102,7 +101,17 @@ with open('tfidf_matrix_float.txt', 'w') as output_file2:
         for j in range(len(a)):
             print(line[j], end = '\t', file = output_file2)
         print('\n', file = output_file2)
-output_file2.close()
+
+with open('tfidf_matrix_float_reserved.txt', 'w') as oF:
+    for i in range(len(tfidf_matrix)):
+        a = tfidf_matrix[i]
+        for j in range(len(a)):
+            
+            # print(tfidf_vec.get_feature_names()[j])
+            # print(a[j])
+        # print(sum)        
+            print(a[j], end = '\t', file = oF)
+        print('\n', file = oF)
 # In[3]
 # # slow for the dictionary below, comment unless needed
 # with open('tfidf_dict_form.txt', 'w') as output_file3:
