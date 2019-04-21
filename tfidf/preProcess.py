@@ -2,18 +2,33 @@ import numpy as np
 import json
 from sklearn.feature_extraction import text
 
-fileName = 'review_all.txt'
+# fileName = 'review_all.txt'
+# outputFileName = 'review_stem.txt'
 # x = open(fileName).read()
 # print(len(x))
 
-with open(fileName) as f:
-    first_line = f.readline()
+# with open(fileName) as f:
+#     line = f.readline()
+#     record = json.loads(line)
+#     game = record["game"]
+#     index = record["index"]
+#     gameUrl = record["gameUrl"]
+#     review = record["review"]
 
-reviews = json.loads(first_line)
+line = ""
+with open('tfidf_all_features.txt') as f:
+    line = f.readline()
+    f.close()
 
-review1 = reviews["review"]
-review1 = [review1]
-print(text)
+words = line.split('\', \'')
+print(words)
+
+
+from nltk.stem.porter import PorterStemmer
+porter = PorterStemmer()
+stemmed = [porter.stem(word) for word in words]
+print(set(stemmed))
+
 
 # platforms = {'xbox','ps','psp','ps3','ps2','gb','gba','360','n64'}
 # gameGeneral = {'game','ign','play','playing','player','version','gaming','games','app','player','players','download','win','lose','won','lost'}
