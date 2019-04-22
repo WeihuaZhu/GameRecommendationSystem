@@ -105,8 +105,38 @@ def deduplicate(res):
 # # # np.set_printoptions(threshold=sys.maxsize)
 # suggest_gameIdex = GetGameInfo(selectGame)
 # print(GetRecommendGames(suggest_gameIdex))
-ind = 15756
-res = getGameList(ind)
-print(deduplicate(res))
 
+def getCommonFeature(ind1, ind2,topNum = 20):
+    text_file = open("tfidf_all_features.txt", "r")
+    lines = text_file.read().split(',')
+    featureScore  = read_tfidf_matrix('tfidf_matrix_float.txt')
+    featureM = np.asarray(featureScore)
+    s1 = featureM[ind1][:].astype(np.float)
+    s2 = featureM[ind2][:].astype(np.float)
+
+    s12 = np.zeros(len(lines))
+
+    for i in range(len(lines)):
+        if s1[i] == 0 or s2[i] == 0:
+            s1[i]=0
+            s2[i]=0    
+        else:
+            s12[i] = s2[i]+s1[i]
+  
+    s12sorta = np.argsort(s12)
+    s12sortd = np.flip(s12sorta)
+    featlist = list()
+
+    for j in range(topNum):
+        featlist.append(lines[s12sortd[j]])
+    return featlist
+
+
+
+
+
+
+print(getCommonFeature(13806,51))
+# res = getGameList(ind)
+# print(deduplicate(res))
 # print(getGameList(1100))
