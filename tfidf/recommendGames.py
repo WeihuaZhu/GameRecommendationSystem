@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-def GetGameInfo(uID,numTop = 20):
+def GetGameInfo(uID,numTop = 75):
     featureL  = read_tfidf_matrix('tfidf_matrix_float.txt')
     featureM = np.asarray(featureL)
     numGame = len(featureM)
@@ -93,9 +93,20 @@ def getGameList(ind):
     suggest_gameIdex = GetGameInfo(ind)
     return GetRecommendGames(suggest_gameIdex)
 
-
+def deduplicate(res):
+    n = len(res)
+    dedup_res = [res[0]]
+    for i in range(1, n):
+        if res[i] == res[i - 1]:
+            continue
+        else:
+            dedup_res.append(res[i])
+    return dedup_res
 # # # np.set_printoptions(threshold=sys.maxsize)
 # suggest_gameIdex = GetGameInfo(selectGame)
 # print(GetRecommendGames(suggest_gameIdex))
+ind = 15756
+res = getGameList(ind)
+print(deduplicate(res))
 
 # print(getGameList(1100))
