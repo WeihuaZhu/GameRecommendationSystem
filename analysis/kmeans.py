@@ -31,6 +31,9 @@ def kmeans(dataSet, k, MAX_ITR = 30):
 	# first column stores which cluster this sample belongs to,
 	# second column stores the error between this sample and its centroid
 	clusterAssment = mat(zeros((numSamples, 2)))
+	for i in range(numSamples):
+		clusterAssment[i, 0] = -1
+
 	clusterChanged = True
  
 	## step 1: init centroids
@@ -68,7 +71,7 @@ def kmeans(dataSet, k, MAX_ITR = 30):
 			centroids[j, :] = mean(pointsInCluster, axis = 0)
 
 		print('No of changes:' + str(count))
-		if (count <= numSamples * 0.005 or itr >= MAX_ITR):
+		if (count <= numSamples * 0.022 or itr >= MAX_ITR):
 			break
  
 	print('Congratulations, cluster complete!')
@@ -98,6 +101,27 @@ def showCluster(dataSet, k, centroids, clusterAssment):
  
 	plt.show()
 
+# show avg distance vs k selection
+def showDist(kset, dataSet):
+	for k in kset:
+		centroids, clusterAssment = kmeans(dataSet, k)
+		sum1 = 0
+		for i in range(len(clusterAssment)):
+			sum1 += int(clusterAssment[i, 1])
+		avg = sum1 / len(clusterAssment)
+
+		centroids2, clusterAssment2 = kmeans(dataSet, k)
+		sum2 = 0
+		for i in range(len(clusterAssment2)):
+			sum2 += int(clusterAssment2[i, 1])
+		avg2 = sum2 / len(clusterAssment2)
+		avg = (avg + avg2)/2
+
+		print(k, avg)
+		plt.plot(k, avg, 'ro', markersize = 6)
+	plt.show()
+ 
+
 
 def read_tfidf_matrix(filename):
 	# f = open ( '../tfidf/tfidf_matrix_test.txt' , 'r')
@@ -120,19 +144,30 @@ matrixr = read_tfidf_matrix(filename)
 # print(matrixr[0])
 
 dataSet = mat(matrixr)
+
+
+# kset = [2, 3, 5, 8, 10, 12, 15, 18, 20, 25, 30]
+# kset = [20]
+# showDist(kset, dataSet)
+
 k = 20
 centroids, clusterAssment = kmeans(dataSet, k)
-# print(centroids)
+print(centroids)
 print(clusterAssment)
+sums = zeros(20)
 
-with open('kmeans_centroids.txt', 'w') as output_file:
-	for i in range(len(centroids)):
-		for j in range(len(centroids[i])):
-			print(centroids[i][j], end = '\t', file = output_file)
-		print('\n', file = output_file)
+for i in range(len(clusterAssment)):
+	sums[int(clusterAssment[i, 0])] += 1
 
+print(sums)
 
+# with open('kmeans_centroids.txt', 'w') as output_file:
+# 	for i in range(len(centroids)):
+# 		for j in range(len(centroids[i])):
+# 			print(centroids[i][j], end = '\t', file = output_file)
+# 		print('\n', file = output_file)
 
-with open('kmeans_clusters.txt', 'w') as output_file2:
-	for i in range(len(clusterAssment)):
-		print(int(clusterAssment[i, 0]), end = '\n', file = output_file2)
+# with open('kmeans_clusters.txt', 'w') as output_file2:
+# 	for i in range(len(clusterAssment)):
+# 		print(int(clusterAssment[i, 0]), end = '\n', file = output_file2)
+
