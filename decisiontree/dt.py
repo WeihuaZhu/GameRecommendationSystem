@@ -49,14 +49,15 @@ if __name__ == '__main__':
     criterion = 'entropy'
     training_mode = 'all' # 'all'/'half'
     if training_mode == 'half':
-        for max_depth in range(15,30):
+        for max_depth in range(7,8):
             clf = tree.DecisionTreeClassifier(max_depth=max_depth,criterion=criterion)
             clf = clf.fit(X_train, Y_train)
 
-        # # visualize
-        # dot_data = tree.export_graphviz(clf, out_file=None) 
-        # graph = graphviz.Source(dot_data)
-        # graph.render("game")
+            # visualize
+            dot_data = tree.export_graphviz(clf, out_file=None) 
+            graph = graphviz.Source(dot_data)
+            graph.render("game")
+            
             count = 0
             for i in range(n_test):
                 x = X_test[i,:]
@@ -66,9 +67,14 @@ if __name__ == '__main__':
             accuracy = count/n_test
             print("The accuracy when max_depth=", max_depth, "is: ", accuracy)
     elif training_mode == 'all':
-        for max_depth in range(30,50):
+        for max_depth in range(20,21):
             clf = tree.DecisionTreeClassifier(max_depth=max_depth,criterion=criterion)
             clf = clf.fit(X, Y)
+
+            # visualize
+            dot_data = tree.export_graphviz(clf, out_file=None) 
+            graph = graphviz.Source(dot_data)
+            graph.render("gametree")
 
             count = 0
             for i in range(n):

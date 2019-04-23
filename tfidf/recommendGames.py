@@ -106,7 +106,7 @@ def deduplicate(res):
 # suggest_gameIdex = GetGameInfo(selectGame)
 # print(GetRecommendGames(suggest_gameIdex))
 
-def getCommonFeature(ind1, ind2,topNum = 20):
+def getCommonFeature(ind1, ind2,topNum = 100):
     text_file = open("tfidf_all_features.txt", "r")
     lines = text_file.read().split(',')
     featureScore  = read_tfidf_matrix('tfidf_matrix_float.txt')
@@ -136,7 +136,7 @@ def getCommonFeature(ind1, ind2,topNum = 20):
 
 
 
-print(getCommonFeature(13806,51))
+print(getCommonFeature(15621,15621))
 # res = getGameList(ind)
 # print(deduplicate(res))
 # print(getGameList(1100))
